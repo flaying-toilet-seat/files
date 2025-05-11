@@ -1,0 +1,2290 @@
+manuale
+cremonese
+INFORMATICA
+e TELECOMUNICAZIONI
+Terza edizione
+Per gli Istituti Tecnici a indirizzo
+Informatica e Telecomunicazioni
+• DISCIPLINE PROPEDEUTICHE
+• INFORMATICA
+• TELECOMUNICAZIONI
+Per gli Istituti Tecnici a indirizzo
+Informatica e Telecomunicazioni
+• DISCIPLINE PROPEDEUTICHE
+• INFORMATICA
+• TELECOMUNICAZIONI
+Terza edizione a cura di:
+ Antonino Liberatore (parte generale)
+Marco Lino Ferrario, Giorgio Meini, Fiorenzo Formichi
+ (cura scientifica e didattica di Informatica)
+Onelio Bertazioli (cura scientifica e didattica di Telecomunicazioni)
+Marco Paganini (collaborazione alla cura scientifica
+e didattica di Telecomunicazioni)
+Giovanni Naldi (cura scientifica della collana)
+Licia Marcheselli (cura didattica della collana)
+manuale
+cremonese
+INFORMATICA
+e TELECOMUNICAZIONI
+III
+PREFAZIONE
+Giunto alla terza edizione, il Manuale Cremonese di Informatica e Telecomunicazioni si conferma l’opera
+di riferimento per tecnici, professionisti, docenti e studenti dell’industria ICT, a dimostrazione del fatto che,
+nonostante l’ampia disponibilità di informazioni reperibili in Rete, la selezione e l’integrazione dei contenuti fondamentali di un ambito disciplinare, anche in rapida evoluzione, mantengono un valore che si estende
+al di là dei percorsi di studio.
+Il Manuale Cremonese è il volume con cui gli studenti dell’indirizzo Informatica e Telecomunicazioni degli Istituti Tecnici del settore Tecnologico tradizionalmente affrontano la seconda prova scritta dell’esame di
+Stato: la recente trasformazione di questa prova da disciplinare a interdisciplinare lo rende lo strumento elettivo anche per la sua preparazione, perché offre agli studenti e ai docenti un ampio e aggiornato repertorio
+di tecnologie hardware e software, completo di elementi normativi e di numerosissimi esempi applicativi.
+La nuova edizione mantiene inalterata la struttura tripartita dell’opera (Discipline propedeutiche, Informatica e Telecomunicazioni), organizza in modo sistematico tutti i contenuti necessari per lo studente e il professionista e facilita il reperimento delle informazioni grazie all’indice analitico finale.
+L’evoluzione tecnologica degli ultimi cinque anni ha portato a ridurre la sezione delle Discipline propedeutiche per fare spazio a temi più attuali, presenti anche nelle Linee Guida ministeriali, come Gestione, progetto e organizzazione di impresa. Sempre nella sezione delle Discipline propedeutiche alcuni capitoli sono stati
+riscritti con un approccio didattico innovativo che soddisferà anche un professionista: in particolare, il capitolo Elettronica digitale unisce alla tradizionale presentazione delle applicazioni delle reti combinatorie e sequenziali il codice VHDL, che ne consente la realizzazione con una logica programmabile.
+La sezione di Informatica è stata notevolmente arricchita per includere tutti gli argomenti indispensabili per
+gli Istituti Tecnici: particolare attenzione è stata dedicata alle più recenti Tecniche di progettazione e all’evoluzione delle normative di riferimento. Alcuni capitoli sono stati completamente riscritti, o integrati in modo consistente, per adeguarli ai cambiamenti tecnologici avvenuti negli ultimi anni; tra questi: Programmazione di sistemi embedded, Programmazione concorrente, Programmazione di rete, Programmazione di app
+per dispositivi con sistema operativo Android, Tecnologie web front-end e Tecnologie web back-end. Il progresso tecnologico che ha portato mutamenti significativi in questo settore ha reso infine necessaria l’aggiunta di nuovi capitoli dedicati alla Programmazione funzionale, al Formato dati JSON e al Linguaggio Python.
+È stata ampliata e aggiornata anche la sezione di Telecomunicazioni per tenere conto delle evoluzioni relative alle Reti di nuova generazione, ai Data center e al Cloud, ai Sistemi per la comunicazione in mobilità e
+per introdurre nuovi argomenti come Tecnologie RFID e NFC, Tecnologie e standard per sistemi radiofonici
+e televisivi, Comunicazione unificata e Smart Working; viene inoltre trattato in modo specifico il tema emergente dell’Internet of Things (IoT).
+Grazie a un ricchissimo apparato grafico in gran parte rinnovato, l’opera costituisce anche un prezioso supporto per preparare la prova orale del nuovo esame di Stato, incentrata sui materiali predisposti dalla commissione che, negli indirizzi tecnologici, sono spesso schemi o rappresentazioni grafiche.
+L’editore desidera ringraziare per il grande impegno i curatori scientifici e didattici dell’opera, i curatori
+scientifici e didattici della collana e tutti i collaboratori.
+Marzo 2020 l’Editore
+IV
+AUTORI
+Ara Gabriele Programmazione di app per dispositivi con
+sistema operativo Android
+Baldon Eljenne Data center • Reti di nuova generazione
+Bandini Massimiliano Sicurezza nei luoghi di lavoro
+Baroncelli Marco Dati acquisiti tramite sensori
+Bertazioli Onelio Caratterizzazione dei segnali • Decibel
+• S/N, rumore, distorsioni e interferenze • Portanti fisici
+• Fibre ottiche • Portante radio • Tecniche di modulazione
+analogiche • Digitalizzazione dei segnali analogici • Dati
+acquisiti tramite sensori • Caratteristiche generali dei sistemi digitali e dati • Tecniche di trasmissione per segnali digitali • Introduzione alle reti e reti a commutazione di circuito
+• Reti a commutazione di pacchetto • Reti locali cablate e
+wireless • Architettura e configurazione delle reti IP • Reti
+geografiche e sistemi di accesso remoto • Reti di nuova generazione • Sistemi per la comunicazione in mobilità
+Borchi Emilio Fisica
+Cabrucci Andrea Unità di misura
+Casini Daniel Elettronica digitale
+Citti Paolo Sicurezza nei luoghi di lavoro
+Dell’Immagine Andrea Tecnologie RFID e NFC
+Di Palma Giuseppe Linguaggio Python
+Ferrario Marco Lino Codifica dell’informazione • Reti logiche • Architettura dei sistemi di elaborazione • Programmazione embedded • Strutture dati e algoritmi • Linguaggi di programmazione • Tecniche di progettazione
+• Programmazione orientata agli oggetti • Sistemi operativi
+• Programmazione concorrente e asincrona
+Formichi Fiorenzo Gestione di dati con database • Tecnologie web back-end
+Giusiano Marco Statistica e calcolo delle probabilità
+Guidi Paolo Elettronica analogica • Principi di economia
+e matematica finanziaria • Disegno elettrico ed elettronico
+• Dati acquisiti tramite sensori
+Lambri Paolo Comunicazione unificata e Smart Working
+Liberatore Antonino Complementi di matematica • Disegno elettrico ed elettronico • Elettrotecnica • Elettronica analogica
+Lorusso Nicola Dati acquisiti tramite sensori
+Manetti Stefano Elettronica analogica
+Marcheselli Licia Matematica • Complementi di matematica • Statistica e calcolo delle probabilità
+Marini Mauro Matematica • Complementi di matematica
+• Statistica e calcolo delle probabilità
+Martini Pietro Elettronica analogica
+Massa Andrea Reti geografiche e sistemi di accesso remoto
+Meini Federico Tecnologie web front-end
+Meini Giorgio Programmazione concorrente e asincrona
+• Programmazione di rete • Formato dati JSON
+Mirandola Stefano Elettronica analogica
+Monti Michele Elettrotecnica
+Naldi Giovanni Unità di misura
+Ollari Paolo Gestione, progetto e organizzazione d’ impresa • Sicurezza informatica delle tecnologie di rete •
+Servizi di rete • Normative relative allo sviluppo del software
+Paganini Marco Reti a commutazione di pacchetto • Reti locali cablate e wireless • Architettura e configurazione
+delle reti IP • Reti geografiche e sistemi di accesso remoto
+• Reti di nuova generazione
+Pallante Piero Fisica
+Passerini Luigi Tecnologie e applicazioni dell’Internet of
+Things
+Patelli Stefano Principi di economia e matematica finanziaria
+Pezzi Mario Elettrotecnica
+Poggi Marco Unità di misura
+Sironi Enrico Tecnologie e applicazioni dell’Internet of
+Things • Tecnologie e standard dei sistemi radiofonici e televisivi digitali
+Soldani Jacopo Programmazione funzionale • Linguaggio XML • Web Service
+Tortoli Piero Elettronica analogica
+V
+INDICE GENERALE
+DISCIPLINE PROPEDEUTICHE
+1 MATEMATICA
+1. GEOMETRIA ................................................................ 3
+1.1. Formulario di geometria euclidea........................... 3
+1.2. Geometria analitica nel piano................................. 6
+1.3. Geometria analitica nello spazio ............................ 7
+2. RICHIAMI DI ALGEBRA DEGLI INSIEMI................. 8
+2.1. Principali operazioni .............................................. 8
+2.2. Principali relazioni ................................................. 9
+2.3. Proprietà di relazioni e operazioni.......................... 9
+2.4. Principio di dualità ................................................. 10
+2.5. Teorema di De Morgan........................................... 10
+2.6. Operatori funzionalmente completi........................ 11
+2.7. Introduzione all’algebra di Boole........................... 11
+3. STRUTTURE ALGEBRICHE ....................................... 12
+3.1. Gruppo.................................................................... 12
+3.2. Campo .................................................................... 13
+3.3. Spazio vettoriale..................................................... 13
+3.4. Applicazioni lineari ................................................ 13
+4. POTENZE DI NUMERI................................................. 13
+5. RADICALI E OPERAZIONI SU DI ESSI ..................... 14
+6. LOGARITMI DI NUMERI............................................ 15
+7. POLINOMI.................................................................... 15
+7.1. Generalità ............................................................... 15
+7.2. Regola di Ruffini.................................................... 15
+7.3. Massimo comune divisore...................................... 16
+7.4. Fattorizzazione ....................................................... 16
+7.5. Relazioni tra coefficienti e radici ........................... 16
+8. EQUAZIONI E DISEQUAZIONI DI I
+E II GRADO .................................................................. 17
+8.1. Identità ed equazioni .............................................. 17
+8.2. Disequazioni........................................................... 17
+9. TRIGONOMETRIA....................................................... 18
+9.1. Le funzioni goniometriche ..................................... 18
+9.2. Le equazioni goniometriche ................................... 18
+9.3. Trigonometria piana ............................................... 18
+9.4. Risoluzione delle figure piane................................ 21
+10. NUMERI COMPLESSI ................................................. 21
+10.1. Definizione........................................................... 21
+10.2. Forma algebrica.................................................... 21
+10.3. Forma trigonometrica........................................... 26
+10.4. Forma esponenziale e formule di Eulero.............. 26
+10.5. Radici ................................................................... 27
+11. FUNZIONI REALI ........................................................ 27
+11.1. Generalità ........................................................... 27
+11.2. Grafici di funzioni elementari ............................ 27
+11.3. Funzioni algebriche ............................................ 30
+11.4. Funzioni razionali............................................... 30
+11.5. Funzioni monotone............................................. 30
+11.6. Funzione composta............................................. 31
+11.7. Funzione inversa................................................. 31
+11.8. Limiti.................................................................. 31
+11.9. Teoremi sui limiti ............................................... 33
+11.10. Limiti notevoli.................................................... 34
+11.11. Infinitesimi e infiniti........................................... 34
+11.12. Funzioni continue............................................... 35
+12. CALCOLO DIFFERENZIALE...................................... 36
+12.1. Derivate................................................................ 36
+12.2. Regole di derivazione........................................... 37
+12.3. Derivate di funzioni elementari............................ 37
+12.4. Derivata di funzione composta............................. 37
+12.5. Teoremi sulle funzioni derivabili.......................... 37
+12.6. Massimi e minimi................................................. 38
+12.7. Forme indeterminate ............................................ 39
+12.8. Derivate successive .............................................. 40
+13. CALCOLO INTEGRALE .............................................. 40
+13.1. Primitive............................................................... 40
+13.2. Regole di integrazione.......................................... 40
+13.3. Integrazione di funzioni razionali......................... 42
+13.4. Integrale definito: definizione e proprietà ............ 42
+13.5. Tavola di integrali definiti .................................... 43
+14. SERIE............................................................................ 43
+14.1. Successioni........................................................... 43
+14.2. Teoremi sui limiti ................................................. 45
+14.3. Serie numeriche.................................................... 45
+14.4. Criteri di convergenza .......................................... 45
+14.5. Somma e prodotto di due serie ............................. 46
+14.6. Serie di potenze .................................................... 47
+14.7. Serie di Taylor ...................................................... 48
+14.8. Sviluppi di funzioni elementari............................ 48
+15. EQUAZIONI DIFFERENZIALI.................................... 48
+15.1. Equazioni differenziali del primo ordine.............. 48
+15.2. Equazioni differenziali lineari.............................. 51
+15.3. Equazioni lineari a coefficienti costanti ............... 52
+15.4. Sistemi lineari....................................................... 53
+VI Manuale Cremonese di INFORMATICA e TELECOMUNICAZIONI
+2 COMPLEMENTI DI MATEMATICA
+1. MATRICI E SISTEMI LINEARI ................................... 55
+1.1. Matrici.................................................................... 55
+1.2. Determinante.......................................................... 55
+1.3. Proprietà del determinante ..................................... 56
+1.4. Operazioni tra matrici............................................. 57
+1.5. Matrice inversa e matrice aggiunta ........................ 57
+1.6. Matrice esponenziale.............................................. 58
+1.7. Autovalori e autovettori.......................................... 58
+1.8. Sistemi lineari......................................................... 58
+2. CRITERIO DI HURWITZ ............................................. 59
+3. STABILITÀ DI UNA EQUAZIONE DIFFERENZIALE ... 60
+4. FUNZIONI DI PIÙ VARIABILI .................................... 60
+4.1. Derivate parziali..................................................... 60
+4.2. Derivata di funzione composta............................... 61
+4.3. Analisi vettoriale .................................................... 62
+4.4. Derivata direzionale ............................................... 62
+4.5. Funzioni implicite .................................................. 62
+4.6. Massimi e minimi................................................... 63
+4.7. Derivazione e integrazione..................................... 63
+4.8. Curve e integrale curvilineo ................................... 63
+5. ANALISI COMPLESSA................................................ 64
+5.1. Funzioni elementari................................................ 64
+5.2. Funzioni analitiche ................................................. 65
+5.3. Integrale.................................................................. 65
+5.4. Serie di Taylor e di Laurent.................................... 66
+5.5. Singolarità .............................................................. 66
+5.6. Residui.................................................................... 67
+5.7. Funzioni reali positive............................................ 67
+6. FUNZIONI DI BESSEL................................................. 68
+6.1. Gamma euleriana.................................................... 68
+6.2. Funzioni di Bessel.................................................. 68
+7. ANALISI DI FOURIER................................................. 68
+7.1. Sviluppo in serie di Fourier di funzioni
+periodiche............................................................... 68
+7.2. Forma complessa dello sviluppo in serie
+di Fourier................................................................ 69
+7.3. L’integrale e la trasformata di Fourier.................... 72
+8. TRASFORMATA DI LAPLACE.................................... 72
+8.1. Generalità ............................................................... 72
+8.2. Definizione di trasformata di Laplace .................... 72
+8.3. Trasformata inversa................................................ 73
+8.4. Proprietà della trasformata ..................................... 73
+8.5. Scomposizione in fratti semplici (frazionamento
+parziale). Trasformata inversa ................................ 76
+8.6. Teorema del valore iniziale .................................... 77
+8.7. Teorema del valore finale ....................................... 77
+8.8. Soluzioni delle equazioni integrodifferenziali ....... 77
+9. TRASFORMATA ZETA (Z)........................................... 78
+9.1. Premessa................................................................. 78
+9.2. Definizioni.............................................................. 78
+9.3. Esempi di trasformata Z ......................................... 78
+9.4. Proprietà della trasformata Z.................................. 79
+9.5. Convoluzione discreta............................................ 80
+9.6. Trasformata inversa................................................ 80
+9.7. Risoluzione di equazioni alle differenze ................ 80
+3 STATISTICA E CALCOLO
+DELLE PROBABILITÀ
+1. CALCOLO COMBINATORIO ...................................... 85
+1.1. Permutazioni semplici............................................ 85
+1.2. Disposizioni semplici............................................. 85
+1.3. Combinazioni semplici. Binomio di Newton......... 85
+1.4. Disposizioni con ripetizione................................... 86
+1.5. Combinazioni con ripetizione ................................ 86
+1.6. Permutazioni con ripetizione. Polinomio
+di Leibniz................................................................ 86
+2. STATISTICA ................................................................. 86
+2.1. Popolazione, carattere ............................................ 86
+2.2. Frequenze ............................................................... 86
+2.3. Rappresentazione dei dati statistici ........................ 87
+2.4. Gli indici di posizione centrale............................... 87
+2.5. Gli indici di variabilità ........................................... 87
+2.6. I rapporti statistici................................................... 87
+2.7. L’interpolazione statistica ...................................... 88
+2.8. La dipendenza, la regressione e la
+correlazione ............................................................ 88
+3. CALCOLO DELLE PROBABILITÀ ............................. 89
+3.1. Gli eventi.............................................................. 89
+3.2. La concezione classica della probabilità .............. 89
+3.3. La concezione statistica della probabilità............. 89
+3.4. La concezione soggettiva della probabilità .......... 89
+3.5. L’impostazione assiomatica
+della probabilità.................................................... 89
+3.6. La probabilità della somma logica di eventi......... 89
+3.7. La probabilità condizionata.................................. 90
+3.8. La probabilità del prodotto logico di eventi ......... 90
+3.9. Il problema delle prove ripetute ........................... 90
+3.10. Il teorema di Bayes............................................... 90
+3.11. I giochi aleatori..................................................... 90
+3.12. Le variabili casuali discrete
+e le distribuzioni di probabilità............................. 90
+3.13. I valori caratterizzanti una variabile casuale
+discreta ................................................................. 90
+3.14. Le distribuzioni di probabilità di uso
+frequente............................................................... 91
+3.15. Le variabili casuali standardizzate ....................... 91
+3.16. Le variabili casuali continue................................. 91
+4. STATISTICA INFERENZIALE ..................................... 92
+4.1. La popolazione e il campione .............................. 92
+4.2. I parametri della popolazione
+e del campione...................................................... 92
+4.3. La distribuzione della media campionaria............ 92
+4.4. Particolari distribuzioni campionarie ................... 94
+4.5. Gli stimatori e le loro proprietà ............................ 94
+4.6. La stima puntuale ................................................. 94
+4.7. La stima per intervallo della media ...................... 94
+4.8. La stima per intervallo della differenza fra due
+medie .................................................................... 95
+4.9. La stima per intervallo di una percentuale ........... 95
+4.10. La verifica delle ipotesi........................................ 95
+5. TEORIA DEGLI ERRORI ............................................. 96
+5.1. Generalità ............................................................... 96
+5.2. Errori casuali e misure ripetute .............................. 96
+INDICE GENERALE VII
+5.3. Problema del rigetto dei dati .................................. 98
+5.4. Misurazioni eseguite con diverso
+grado di precisione ................................................. 98
+5.5. Misurazioni indirette e propagazione
+degli errori.............................................................. 98
+4 UNITÀ DI MISURA
+1. GENERALITÀ .............................................................. 101
+2. GRANDEZZE FONDAMENTALI
+E RELATIVE UNITÀ .................................................... 101
+3. MULTIPLI E SOTTOMULTIPLI................................... 102
+3.1. Esempi di applicazione........................................... 102
+3.2. Uso delle unità SI e dei loro multipli
+e sottomultipli......................................................... 102
+4. GRANDEZZE FISICHE E UNITÀ DI MISURA ........... 102
+5. TABELLE DI CONVERSIONE..................................... 109
+6. IMPIEGO DELLE TABELLE DI CONVERSIONE
+DELLE UNITÀ DI MISURA......................................... 112
+6.1. Premessa................................................................. 112
+6.2. Note esplicative...................................................... 112
+5 FISICA
+1. VETTORI ...................................................................... 113
+1.1. Grandezze scalari e vettoriali ................................. 113
+1.2. Somma e differenza di due vettori.......................... 114
+1.3. Prodotto scalare...................................................... 114
+1.4. Prodotto vettoriale.................................................. 114
+2. CINEMATICA............................................................... 115
+2.1. Cinematica del punto materiale.............................. 115
+2.2. Cinematica del corpo rigido ................................... 117
+3. STATICA ....................................................................... 117
+3.1. Le forze .................................................................. 117
+3.2. Forze elastiche, forza peso, forze di attrito............. 118
+3.3. Condizioni per l’equilibrio..................................... 119
+4. DINAMICA ................................................................... 120
+4.1. Principio di inerzia e sistemi di riferimento
+inerziali................................................................. 120
+4.2. Secondo principio della dinamica per un punto
+materiale............................................................... 120
+4.3. Quantità di moto di un punto materiale................ 121
+4.4. Lavoro di una forza e potenza .............................. 121
+4.5. Energia potenziale ed energia cinetica ................. 122
+4.6. Conservazione dell’energia meccanica ................ 122
+4.7. Principio di azione-reazione
+e dinamica dei sistemi .......................................... 123
+4.8. Dinamica del corpo rigido.................................... 124
+4.9. Gravitazione universale........................................ 126
+4.10. Moti armonici e periodici..................................... 127
+4.11. Problemi di urto.................................................... 127
+5. PROPRIETÀ MECCANICHE DEI SOLIDI .................. 128
+6. FLUIDI.......................................................................... 129
+6.1. Pressione ................................................................ 129
+6.2. Statica dei fluidi ..................................................... 130
+6.3. Statica dell’atmosfera............................................. 130
+6.4. Legge di Boyle e Mariotte...................................... 131
+6.5. Dinamica dei fluidi................................................. 131
+7. TERMODINAMICA...................................................... 133
+7.1. Temperatura............................................................ 134
+7.2. Dilatazione termica dei solidi e dei liquidi............. 134
+7.3. Equazione di stato .................................................. 135
+7.4. Calore ..................................................................... 135
+7.5. Cambiamenti di stato.............................................. 136
+7.6. Trasmissione del calore .......................................... 138
+7.7. Primo principio della termodinamica..................... 139
+7.8. Secondo principio della termodinamica................. 139
+8. CAMPO ELETTRICO ................................................... 141
+8.1. La carica elettrica e le sue proprietà ....................... 141
+8.2. La Legge di Coulomb............................................. 141
+8.3. Campo elettrico e potenziale elettrico.................... 142
+8.4. Corrente elettrica e leggi di Ohm ........................... 144
+9. CAMPO MAGNETICO ................................................. 146
+9.1. Induzione elettromagnetica .................................... 148
+10. OTTICA......................................................................... 149
+10.1. Caratteristiche della radiazione luminosa............. 149
+10.2. Ottica geometrica ................................................. 149
+10.3. Ottica fisica .......................................................... 153
+11. ONDE ............................................................................ 156
+11.1. Generalità sulle onde ............................................ 156
+11.2. Velocità di propagazione delle onde..................... 157
+11.3. Energia trasportata dalle onde .............................. 158
+11.4. Interferenza........................................................... 158
+11.5. Onde stazionarie................................................... 158
+11.6. Battimenti............................................................. 159
+11.7. Onde sonore ed Effetto Doppler........................... 159
+6 PRINCIPI DI ECONOMIA E MATEMATICA
+FINANZIARIA
+1. PRINCIPI DI ECONOMIA............................................ 161
+1.1. Bisogni, beni, utilità ............................................... 161
+1.2. La produzione......................................................... 162
+1.3. Il mercato ............................................................... 163
+1.4. La moneta............................................................... 163
+1.5. Caratteristiche della moneta ................................... 163
+2. IMPRESA, AZIENDA E SOCIETÀ ............................... 164
+2.1. Enti economici ....................................................... 164
+2.2. Impresa................................................................... 164
+2.3. Azienda................................................................... 165
+2.4. Società.................................................................... 165
+2.5. Organizzazione dell’impresa.................................. 166
+2.6. Fine dell’impresa.................................................... 167
+2.7. Utile dell’impresa................................................... 167
+3. CAPITOLATI E PREVENTIVI...................................... 168
+3.1. Contratto................................................................. 168
+3.2. Capitolati................................................................ 170
+3.3. Preventivi ............................................................... 171
+4. MATEMATICA FINANZIARIA.................................... 171
+4.1. Interesse semplice .................................................. 171
+4.2. Interesse composto................................................. 172
+4.3. Interesse convertibile.............................................. 173
+4.4. Mutui...................................................................... 173
+4.5. Riparti..................................................................... 174
+VIII Manuale Cremonese di INFORMATICA e TELECOMUNICAZIONI
+7 DISEGNO ELETTRICO ED ELETTRONICO
+1. SEGNI GRAFICI........................................................... 175
+1.1. Segni grafici secondo le Norme CEI ..................... 175
+1.2. Tracciamento dei segni grafici ............................... 175
+1.3. Segni grafici per diagrammi di flusso .................... 175
+1.4. Segni grafici secondo le Norme MIL..................... 175
+1.5. Segni grafici per impianti pneumatici
+e oleoidraulici......................................................... 175
+2. CLASSIFICAZIONE DEGLI SCHEMI ELETTRICI..... 193
+3. REALIZZAZIONE DI SCHEMI ELETTRICI ............... 196
+8 ELETTROTECNICA
+1. ELETTROSTATICA...................................................... 199
+1.1. Azioni tra cariche elettriche (legge di Coulomb).. 199
+1.2. Campo elettrico .................................................... 199
+1.3. Linee di forza ....................................................... 199
+1.4. Intensità di campo elettrico .................................. 199
+1.5. Energia potenziale elettrica. Potenziale elettrico.
+Tensione elettrica.................................................. 200
+1.6. Teorema di Gauss. Densità superficiale ............... 202
+1.7. Capacità................................................................ 203
+1.8. Condensatore........................................................ 203
+1.9. Rigidità dielettrica................................................ 205
+1.10. Energia immagazzinata da un condensatore
+carico .................................................................... 205
+2. CORRENTI CONTINUE............................................... 206
+2.1. Corrente elettrica e densità di corrente................. 206
+2.2. Resistenza e resistività ......................................... 206
+2.3. Conduttanza e conduttività................................... 208
+2.4. Legge di Ohm....................................................... 208
+2.5. Caduta di tensione ................................................ 208
+2.6. Circuito elettrico................................................... 208
+2.7. Convenzioni di segno........................................... 208
+2.8. Ordini di grandezza .............................................. 208
+2.9. Bipoli elettrici....................................................... 209
+2.10. Tipologie di generatori reali ................................. 211
+2.11. Circuiti in corrente continua................................. 214
+2.12. Carica e scarica del condensatore......................... 226
+2.13. Dualità e analogie................................................. 228
+2.14. Energia. Potenza. Legge di Joule ......................... 229
+2.15. Rendimento .......................................................... 229
+2.16. Quadripoli ............................................................ 230
+3. CAMPI MAGNETICI E CIRCUITI MAGNETICI......... 234
+3.1. Magneti naturali ..................................................... 234
+3.2. Induzione magnetica .............................................. 235
+3.3. Isteresi magnetica................................................. 236
+3.4. Legge della circuitazione di Ampère.................... 236
+3.5. Applicazione della legge di Ampère
+al solenoide........................................................... 237
+3.6. Flusso del vettore B e teorema di Gauss............... 237
+3.7. Flusso del vettore B attraverso una superficie
+non chiusa............................................................. 237
+3.8. Tensione magnetica o forza magnetomotrice ....... 237
+3.9. Circuiti magnetici................................................. 238
+3.10. Legge di Faraday-Neumann. Legge di Lenz ........ 238
+3.11. Autoinduzione. Legge di Ohm per i circuiti
+induttivi in regime variabile ................................. 239
+3.12. Collegamento in serie e in parallelo
+di induttanze ......................................................... 239
+3.13. Espressioni del coefficiente di autoinduzione ...... 239
+3.14. Mutua induzione................................................... 239
+3.15. Energia connessa con i campi magnetici.............. 240
+3.16. Espressione del coefficiente di mutua induzione . 241
+3.17. Analogie tra campi magnetici ed elettrici e tra
+bipoli induttivi e capacitivi................................... 241
+3.18. Forza portante di un elettromagnete..................... 241
+3.19. F.e.m. indotta in un conduttore di lunghezza l
+che si muove in un campo magnetico di
+induzione B con velocità v................................... 242
+3.20. Forza meccanica su un conduttore di lunghezza l
+immerso in un campo magnetico di induzione B
+percorso da corrente I........................................... 242
+3.21. Azioni elettrodinamiche ....................................... 243
+3.22. Correnti di Foucault ............................................. 243
+4. SEGNALI E FORME D’ONDA..................................... 243
+4.1. Generalità ............................................................... 243
+4.2. Caratteristiche generali dei segnali......................... 243
+4.3. Segnali di uso più frequente ................................... 245
+5. ANALISI DI CIRCUITI E RETI IN REGIME
+SINUSOIDALE ............................................................. 248
+5.1. Generalità ............................................................. 248
+5.2. Bipoli puramente resistivi .................................... 248
+5.3. Bipoli puramente induttivi ................................... 249
+5.4. Bipoli puramente capacitivi ................................. 250
+5.5. Legge di Ohm per un bipolo passivo RLC serie .. 251
+5.6. Ammettenza.......................................................... 253
+5.7. Criterio generale per la risoluzione dei circuiti
+e delle reti in regime sinusoidale .......................... 255
+5.8. Potenza in regime sinusoidale .............................. 258
+5.9. Rifasamento.......................................................... 259
+5.10. Potenza complessa. Teorema di Boucherot.
+Potenza deformante .............................................. 260
+5.11. Circuiti risonanti................................................... 260
+5.12. Adattamento di carico........................................... 266
+5.13. Adattamento d’impedenza nei circuiti risonanti
+parallelo................................................................ 266
+APPENDICE – SINTESI DEI DIODI A
+SEMICONDUTTORE ........................................................ 268
+9 ELETTRONICA ANALOGICA
+1. AMPLIFICATORI A TRANSISTOR.............................. 271
+2. DISPOSITIVI ATTIVI DEGLI AMPLIFICATORI ........ 271
+2.1. Circuiti equivalenti dei dispositivi attivi discreti e
+integrati................................................................... 271
+2.2. Circuiti equivalenti elettrici.................................... 272
+3. CIRCUITI EQUIVALENTI FISICI................................ 272
+3.1. Circuito equivalente per i transistor bipolari.......... 272
+3.2. Circuito equivalente dei transistor
+a effetto di campo ................................................... 273
+4. RETI DI POLARIZZAZIONE ...................................... 273
+4.1. Generalità ............................................................... 273
+4.2. Stabilizzazione del punto di lavoro del BJT........... 274
+4.3. Polarizzazione dei circuiti integrati lineari............. 274
+4.4. Polarizzazione del JFET......................................... 274
+INDICE GENERALE IX
+5. ANALISI NEL DOMINIO DELLA FREQUENZA........ 275
+6. REAZIONE NELL’ANALISI E NEL PROGETTO
+DEGLI AMPLIFICATORI............................................. 276
+6.1. Effetti della retroazione.......................................... 277
+7. ANALISI E SINTESI DEGLI AMPLIFICATORI
+REAZIONATI................................................................ 277
+8. STABILITÀ DEGLI AMPLIFICATORI REAZIONATI 277
+9. SINTESI DEGLI AMPLIFICATORI.............................. 277
+9.1. Generalità ............................................................... 277
+10. AMPLIFICAZIONE DEI SEGNALI
+DI PICCOLA AMPIEZZA ............................................. 278
+10.1. Amplificazione di piccoli segnali
+nel campo delle basse frequenze .......................... 278
+10.2. Amplificazione dei segnali nel campo
+delle radiofrequenze ............................................. 278
+11. AMPLIFICATORI OPERAZIONALI ............................ 278
+11.1. Introduzione ......................................................... 278
+11.2. Amplificatore operazionale ideale........................ 279
+11.3. Amplificatore operazionale reale.......................... 279
+11.4. Configurazioni circuitali di base .......................... 281
+11.5. Regole per l’analisi semplificata .......................... 281
+11.6. Comportamento dell’A.O. a frequenze elevate .... 282
+11.7. Compensazione in frequenza................................ 282
+11.8. Compensazione della corrente di polarizzazione
+e della tensione di offset....................................... 283
+11.9. Comportamento dell’A.O. per grandi segnali ...... 284
+12. APPLICAZIONI LINEARI DEGLI A.O. ....................... 284
+12.1. Amplificatori differenziali.................................. 284
+12.2. Sommatori.......................................................... 284
+12.3. Convertitore corrente-tensione........................... 285
+12.4. Convertitori tensione-corrente............................ 285
+12.5. Amplificatori di corrente .................................... 286
+12.6. Integratore .......................................................... 286
+12.7. Derivatore........................................................... 287
+12.8. Amplificatori in corrente alternata ..................... 287
+12.9. Generatori di tensione continua.......................... 288
+12.10. Generatori di corrente continua.......................... 288
+13. APPLICAZIONI NON LINEARI DELL’A.O................. 289
+13.1. Raddrizzatore di precisione.................................. 289
+13.2. Amplificatore logaritmico .................................... 290
+14. COMPARATORI E LIMITATORI.................................. 290
+14.1. Comparatore......................................................... 290
+14.2. Rivelatore del passaggio per zero......................... 290
+14.3. Trigger di Schmitt................................................. 291
+14.4. Limitatori di tensione ........................................... 292
+15. FILTRI ELETTRONICI................................................. 292
+15.1. Quadripoli lineari ................................................ 292
+16. FILTRI PASSIVI............................................................ 293
+16.1. Filtri RC e RL (1° ordine)..................................... 294
+16.2. Filtri RLC (2° ordine)........................................... 295
+17. FILTRI ATTIVI.............................................................. 296
+17.1. Filtri attivi del 1° ordine ....................................... 298
+17.2. Filtri attivi del 2° ordine ....................................... 298
+17.3. Filtri attivi VCVS ................................................ 298
+17.4. Filtro VCVS passa basso ..................................... 299
+17.5. Filtro VCVS passa alto......................................... 299
+17.6. Filtri a reazione multipla passa banda .................. 299
+17.7. Filtri attivi universali (a variabili di stato)............ 300
+17.8. Filtri universali integrati....................................... 301
+17.9. Filtri attivi di ordine superiore.............................. 301
+18. OSCILLATORI.............................................................. 302
+18.1. Prestazioni............................................................ 302
+19. CONDIZIONI DI OSCILLAZIONE .............................. 302
+20. OSCILLATORI SINUSOIDALI A BASSA
+FREQUENZA DI TIPO RC............................................ 303
+20.1. Oscillatore a ponte di Wien .................................. 303
+20.2. Oscillatore a T-pontato ......................................... 303
+20.3. Oscillatori a sfasamento ....................................... 303
+21. OSCILLATORI PER ALTA FREQUENZA .................... 303
+21.1. Oscillatori a quarzo .............................................. 304
+22. GENERATORI DI SEGNALE ....................................... 305
+22.1. Generatore d’onda quadra .................................... 305
+22.2. Generatore d’onda triangolare.............................. 305
+22.3. Circuiti integrati temporizzatori........................... 306
+23. AMPLIFICATORI DI POTENZA.................................. 307
+23.1. Classi di funzionamento....................................... 308
+23.2. Schemi.................................................................. 309
+23.3. Componenti.......................................................... 309
+10 ELETTRONICA DIGITALE
+1. SISTEMI NUMERICI.................................................... 311
+1.1. Numeri naturali ...................................................... 311
+1.2. Numeri interi .......................................................... 311
+2. PORTE LOGICHE......................................................... 312
+2.1. Porte logiche elementari......................................... 312
+2.2. Porte logiche speciali ............................................. 312
+2.3. Caratteristiche delle porte logiche.......................... 314
+2.4. Famiglie di porte logiche........................................ 316
+3. RETI LOGICHE ............................................................ 317
+3.1. Transitori in reti combinatorie................................ 318
+4. INTRODUZIONE AL LINGUAGGIO VHDL ............... 318
+4.1. Fondamenti del linguaggio VHDL......................... 319
+4.2. Struttura di una descrizione VHDL........................ 321
+5. RETI COMBINATORIE DI USO COMUNE ................. 322
+5.1. Multiplexer............................................................. 322
+5.2. Demultiplexer......................................................... 322
+5.3. Encoder .................................................................. 324
+5.4. Decoder.................................................................. 325
+5.5. Multiplexer implementato con porte three state..... 326
+6. RETI COMBINATORIE PER ARITMETICA................ 327
+6.1. Operazioni su numeri naturali................................ 327
+6.2. Operazioni su numeri interi.................................... 329
+6.3. Esempio di realizzazione di una semplice ALU
+in VHDL................................................................. 331
+7. RETI SEQUENZIALI ASINCRONE DI USO
+COMUNE ...................................................................... 334
+7.1. Latch SR................................................................. 334
+7.2. Latch D................................................................... 335
+7.3. Problemi dovuti alla trasparenza ............................ 336
+7.4. Flip Flop D positive-edge triggered ....................... 337
+X Manuale Cremonese di INFORMATICA e TELECOMUNICAZIONI
+7.5. Implementazione Master-Slave
+di un Flip Flop D .................................................... 337
+7.6. Inizializzazione di reti sequenziali ......................... 338
+8. RETI SEQUENZIALI SINCRONE DI USO COMUNE. 338
+8.1. Flip Flop JK............................................................ 339
+8.2. Flip Flop T.............................................................. 340
+8.3. Registri di memoria................................................ 340
+8.4. Registri a scorrimento ............................................ 341
+8.5. Contatori................................................................. 343
+9. MEMORIE..................................................................... 345
+9.1. RAM Statiche......................................................... 345
+9.2. RAM Dinamiche .................................................... 346
+9.3. ROM....................................................................... 346
+9.4. EPROM.................................................................. 346
+9.5. EEPROM................................................................ 346
+9.6. Memorie Flash ....................................................... 347
+10. CONVERSIONE DI SEGNALI ..................................... 347
+10.1. Convertitore analogico-digitale............................ 347
+10.2. Convertitore digitale-analogico............................ 347
+11. RAPID-PROTOTYPING DI CIRCUITI DIGITALI....... 348
+11.1. PLA, PAL, GAL e CPLD .................................... 348
+11.2. Field Programmable Gate Array (FPGA)........... 348
+11 SICUREZZA NEI LUOGHI DI LAVORO:
+STRUMENTI E METODI PER L’ANALISI
+E LA VALUTAZIONE DEI RISCHI
+1. INTRODUZIONE.......................................................... 349
+2. DEFINIZIONI ............................................................... 350
+3. VALUTAZIONE DEI RISCHI ....................................... 351
+4. MODALITÀ DI VALUTAZIONE DEI RISCHI............. 351
+5. PROCESSO DI VALUTAZIONE DEI RISCHI.............. 352
+6. INDIVIDUAZIONE DEI PERICOLI............................. 353
+7. STIMA DEI RISCHI...................................................... 354
+8. MISURE DI TUTELA ................................................... 355
+9. PROCEDURE STANDARDIZZATE PER PICCOLE
+E MEDIE IMPRESE ...................................................... 359
+10. DISPOSITIVI DI PROTEZIONE INDIVIDUALE ........ 362
+12 GESTIONE PROGETTO
+ORGANIZZAZIONE D’IMPRESA
+1. ORGANIZZAZIONE D’IMPRESA ............................... 369
+1.1. L’azienda ................................................................ 369
+1.2. Stakeholder e cicli aziendali................................... 369
+1.3. Modelli di organizzazione aziendale...................... 371
+1.4. La tecnostruttura informatica: il SIA...................... 375
+1.5. La tecnostruttura informatica: il WIS..................... 378
+1.6. Merci informazione................................................ 380
+1.7. Economie di scala, economie di rete
+e discriminazione del prezzo .................................. 381
+1.8. Outsourcing............................................................ 382
+2. LA PROGETTAZIONE.................................................. 384
+2.1. Il progetto............................................................... 384
+2.2. Il PMBOK .............................................................. 386
+2.3. La WBS (Work Breakdown Structure) ................... 388
+2.4. Tempi...................................................................... 390
+2.5. Risorse.................................................................... 393
+2.6. Costi ....................................................................... 394
+2.7. Earned value .......................................................... 396
+INFORMATICA
+13 CODIFICA DELL’INFORMAZIONE
+1. RAPPRESENTAZIONE NUMERICA
+DELL’INFORMAZIONE............................................... 399
+1.1. Le macchine e le informazioni ............................... 399
+1.2. Sistemi di numerazione .......................................... 399
+2. CODIFICHE BINARIE.................................................. 401
+2.1. Codifica dei numeri................................................ 401
+2.2. Codifica ASCII....................................................... 403
+2.3. Codifiche Windows................................................ 406
+2.4. Sistema di codifica UNICODE .............................. 408
+3. RICONOSCIMENTO E CORREZIONE
+DI ERRORI.................................................................... 410
+4. COMPRESSIONE DEI DATI ........................................ 412
+4.1. Entropia di una sequenza di simboli....................... 412
+4.2. Compressione lossless............................................ 413
+4.3. Compressione lossy................................................ 418
+5. CODIFICA DELLE IMMAGINI.................................... 422
+5.1. Profondità di colore................................................ 423
+5.2. Modelli di colore .................................................... 424
+5.3. Mappa dei colori..................................................... 425
+5.4. Formati di file vettoriali ......................................... 426
+5.5. Formati di file bitmap............................................. 427
+6. CODIFICA AUDIO E VIDEO........................................ 428
+6.1. Codifica audio ........................................................ 428
+6.2. Codifica video ........................................................ 429
+6.3. Formati audio-video: MPEG.................................. 430
+6.4. Altri formati audio-video........................................ 431
+6.5. Formati TV per alta definizione (HD).................... 432
+14 RETI LOGICHE
+1. DEFINIZIONI ............................................................... 433
+2. RETI COMBINATORIE ................................................ 434
+3. BISTABILI .................................................................... 440
+4. MACCHINE SEQUENZIALI........................................ 441
+4.1. Macchine sequenziali sincrone............................... 442
+4.2. Macchine sequenziali asincrone............................. 445
+15 ARCHITETTURA DEI SISTEMI
+DI ELABORAZIONE
+1. ARCHITETTURA DEI SISTEMI
+DI ELABORAZIONE.................................................... 447
+1.1. Architettura di von Neumann................................. 447
+1.2. Architettura Harvard .............................................. 447
+2. CPU ............................................................................... 447
+2.1. Architettura del set di istruzioni ............................. 448
+2.2. Tipi di istruzioni ..................................................... 449
+2.3. CISC e RISC .......................................................... 449
+2.4. Registri ................................................................... 450
+2.5. Pipeline................................................................... 451
+INDICE GENERALE XI
+3. BUS ............................................................................... 453
+3.1. Bus per schede di espansione ................................. 453
+3.2. Bus per la connessione di schede grafiche ............. 454
+3.3. Bus e porte di comunicazione................................. 454
+3.4. Bus per dispositivi di memorizzazione................... 458
+3.5. Bus e interfacce esterne audio/video ...................... 458
+3.6. Altri Bus interni...................................................... 458
+4. PERIFERICHE .............................................................. 459
+4.1. Periferiche di memorizzazione............................... 459
+4.2. Dispositivi di I/O.................................................... 460
+4.3. Schede .................................................................... 462
+5. INTERRUZIONI ........................................................... 462
+5.1. Interruzioni esterne................................................. 462
+5.2. Interruzioni interne................................................. 462
+5.3. Gestione delle interruzioni ..................................... 463
+6. DMA.............................................................................. 463
+7. MEMORIE..................................................................... 464
+7.1. Memoria cache ....................................................... 466
+7.2. Memoria virtuale .................................................... 467
+8. CLASSIFICAZIONE DELL’ARCHITETTURA
+DEI PROCESSORI........................................................ 472
+8.1. Evoluzioni dell’architettura
+dei microprocessori ................................................ 472
+8.2. Multithreading hardware ........................................ 475
+9. ARCHITETTURA DI UN PERSONAL
+COMPUTER.................................................................. 476
+9.1. Struttura di un personal computer basata
+su doppio hub ......................................................... 477
+9.2. Struttura di un personal computer basata
+su singolo hub......................................................... 478
+10. ARCHITETTURA INTEL A 32 BIT E A 64 BIT............. 479
+10.1. Architettura Intel a 32 bit...................................... 480
+10.2. Architettura Intel a 64 bit...................................... 483
+16 PROGRAMMAZIONE EMBEDDED
+1. MICROCONTROLLORI............................................... 485
+2. MICROCONTROLLORI ATMEL AVR ......................... 486
+3. MICROCONTROLLORI E PROCESSORI ARM .......... 490
+4. MICROCONTROLLORI BASATI SU ARM
+CORTEX-M................................................................... 492
+4.1. Applicazioni ......................................................... 492
+4.2. Struttura interna.................................................... 493
+4.3. Spazio di indirizzamento...................................... 494
+4.4. Controller degli interrupt (NVIC) ........................ 494
+4.5. Unità di protezione della memoria (MPU)........... 495
+4.6. Architettura del set di istruzioni (ISA) ................. 495
+4.7. Modello di programmazione ................................ 495
+4.8. Modalità di funzionamento .................................. 496
+4.9. Modello di gestione delle eccezioni ..................... 497
+4.10. Gestione dei fault ................................................. 499
+4.11. Prestazioni di supporto a un sistema operativo
+(OS)...................................................................... 499
+4.12. Estensioni di sicurezza TrustZone........................ 500
+4.13. CMSIS (Cortex Microcontroller Software
+Interface Standard)............................................... 501
+4.14. Sequenza di startup di un microcontrollore.......... 502
+5. GESTIONE DELLE PERIFERICHE ............................. 504
+5.1. Memorie flash ........................................................ 504
+5.2. Timer e PWM......................................................... 510
+5.3. Periferiche di comunicazione ................................. 513
+5.4. Moduli analogici .................................................... 520
+5.5. HMI (Human Machine Interface) .......................... 523
+5.6. Trasduttori: sensori e attuatori................................ 525
+6. ARDUINO..................................................................... 529
+6.1. Hardware ................................................................ 529
+6.2. Software ................................................................. 530
+7. RASPBERRY PI ............................................................ 535
+7.1. Gestione GPIO con il modulo Python
+RPi.GPIO................................................................ 537
+17 STRUTTURE DATI E ALGORITMI
+1. INTRODUZIONE.......................................................... 541
+2. TIPI DI DATI PRIMITIVI ............................................. 543
+3. TIPI DI DATI DERIVATI............................................... 544
+3.1. Array....................................................................... 545
+3.2. Matrici.................................................................... 546
+3.3. Stringhe .................................................................. 546
+3.4. Record .................................................................... 547
+3.5. Strutture complesse ................................................ 548
+3.6. Puntatori ................................................................. 549
+3.7. Liste........................................................................ 551
+3.8. Alberi...................................................................... 557
+3.9. Trasformazioni hash ............................................... 560
+4. RICERCA DI DATI........................................................ 563
+4.1. Ricerca sequenziale ................................................ 563
+4.2. Ricerca binaria........................................................ 564
+5. ORDINAMENTO DI DATI............................................ 564
+5.1. Ordinamento per inserimento................................. 565
+5.2. Ordinamento per selezione..................................... 565
+5.3. Ordinamento per scambio a bolle........................... 566
+5.4. Ordinamenti evoluti: shellsort................................ 567
+5.5. Ordinamenti evoluti: quicksort............................... 568
+6. COMPLESSITÀ DEGLI ALGORITMI.......................... 570
+18 LINGUAGGI DI PROGRAMMAZIONE
+1. INTRODUZIONE.......................................................... 571
+2. METODOLOGIE DI PROGRAMMAZIONE ................ 573
+3. PARADIGMI DI PROGRAMMAZIONE....................... 574
+4. STRUTTURE DI CONTROLLO ................................... 575
+5. SCOMPOSIZIONE FUNZIONALE: PROCEDURE
+E FUNZIONI ................................................................. 577
+5.1. Regole di visibilità.................................................. 578
+5.2. Parametri e passaggio dei parametri....................... 578
+5.3. Ricorsione............................................................... 579
+6. COMPILATORI E INTERPRETI................................... 580
+7. LINKER......................................................................... 581
+7.1. Formato ELF .......................................................... 584
+8. LINGUAGGI ASSEMBLATORI ................................... 585
+9. LINGUAGGIO C: LA LIBRERIA STANDARD ............ 591
+9.1. assert.h.................................................................... 592
+XII Manuale Cremonese di INFORMATICA e TELECOMUNICAZIONI
+9.2. ctype.h .................................................................. 592
+9.3. errno.h .................................................................. 593
+9.4. float.h ................................................................... 593
+9.5. limits.h.................................................................. 593
+9.6. locale.h ................................................................. 593
+9.7. math.h................................................................... 595
+9.8. setjmp.h ................................................................ 595
+9.9. signal.h ................................................................. 598
+9.10. stdarg.h ................................................................. 598
+9.11. stddef.h ................................................................. 599
+9.12. stdio.h................................................................... 599
+9.13. stdlib.h.................................................................. 600
+9.14. string.h.................................................................. 600
+9.15. time.h.................................................................... 611
+10. LINGUAGGIO C: ESEMPI D’USO............................... 612
+11. MACCHINE VIRTUALI ............................................... 621
+11.1. Java Virtual Machine............................................ 622
+11.2. Framework .NET.................................................. 626
+19 TECNICHE DI PROGETTAZIONE
+1. CICLO DI VITA DEL SOFTWARE ............................... 631
+1.1. Modello a cascata ................................................... 631
+1.2. Modello agile.......................................................... 633
+2. METODOLOGIE DI PROGETTO................................. 634
+2.1. Diagrammi di flusso ............................................... 634
+2.2. Data flow diagrams................................................ 635
+2.3. Structured analysis and design technique .............. 636
+2.4. Modello entità relazioni.......................................... 637
+2.5. Unified modeling language .................................... 640
+3. DESIGN PATTERN ....................................................... 648
+3.1. Design pattern creazionali...................................... 648
+3.2. Design pattern strutturali........................................ 651
+3.3. Design pattern comportamentali ............................ 656
+20 PROGRAMMAZIONE ORIENTATA
+AGLI OGGETTI
+1. PROGRAMMAZIONE A OGGETTI ............................. 665
+1.1. Classi e oggetti nel linguaggio C++ ....................... 665
+1.2. Classi e oggetti nel linguaggio Java ....................... 667
+2. EREDITARIETÀ ........................................................... 668
+2.1. Ereditarietà nel linguaggio C++ ............................. 669
+2.2. Ereditarietà nel linguaggio Java ............................. 670
+3. POLIMORFISMO.......................................................... 670
+3.1. Polimorfismo nel linguaggio C++.......................... 670
+3.2. Polimorfismo nel linguaggio Java.......................... 671
+4. OVERLOADING........................................................... 671
+4.1. Overloading nel linguaggio C++............................ 671
+4.2. Overloading nel linguaggio Java............................ 672
+5. LINGUAGGIO C++: ESEMPI D’USO........................... 672
+5.1. Esempi di classi...................................................... 672
+5.2. Gerarchie di ereditarietà ......................................... 675
+5.3. Polimorfismo.......................................................... 676
+5.4. Gestione delle eccezioni......................................... 677
+6. LINGUAGGIO C++: TEMPLATE ................................. 679
+6.1. Template delle classi .............................................. 679
+6.2. Template delle funzioni.......................................... 681
+7. LIBRERIA STANDARD C++........................................ 681
+7.1. La classe string ....................................................... 684
+7.2. Esempi relativi a stringhe ....................................... 684
+7.3. Libreria standard iostream...................................... 688
+7.4. Esempi di I/O.......................................................... 688
+8. STANDARD TEMPLATE LIBRARY............................ 697
+8.1. Contenitori.............................................................. 697
+8.2. Iteratori................................................................... 702
+8.3. Algoritmi................................................................ 704
+8.4. Esempi relativi ai contenitori................................. 704
+9. C++: NUOVE FUNZIONALITÀ ................................... 708
+9.1. C++17..................................................................... 708
+9.2. C++20..................................................................... 712
+10. DESIGN PATTERN: ESEMPI
+IN LINGUAGGIO C++..................................................... 715
+11. LINGUAGGIO JAVA: ESEMPI D’USO ........................ 721
+11.1. Gerarchie di ereditarietà ....................................... 721
+11.2. Linguaggio Java: classi generiche........................ 722
+11.3. Gestione delle eccezioni....................................... 724
+11.4. Classi relative alle stringhe................................... 726
+11.5. La gestione dell’I/O.............................................. 727
+12. CONTENITORI DEL LINGUAGGIO JAVA.................. 735
+12.1. Interfacce.............................................................. 735
+12.2. Implementazioni................................................... 740
+12.3. Algoritmi .............................................................. 742
+12.4. Esempi di collezioni............................................. 742
+13. VERSIONI DI JAVA SUCCESSIVE
+A JAVA SE 8 .................................................................. 748
+13.1. Java 9.................................................................... 748
+13.2. Java 10.................................................................. 750
+13.3. Java 11.................................................................. 751
+14. DESIGN PATTERN: ESEMPI
+IN LINGUAGGIO JAVA................................................ 752
+21 PROGRAMMAZIONE FUNZIONALE
+1. CONCETTI FONDAMENTALI.................................... 757
+1.1. Caml: elementi di base ........................................... 757
+1.2. Espressioni e valori ................................................ 759
+1.3. Funzioni.................................................................. 760
+1.4. Pattern matching..................................................... 761
+1.5. Liste........................................................................ 763
+1.6. Funzioni di ordine superiore................................... 764
+1.7. Ricorsione............................................................... 765
+2. PROGRAMMAZIONE FUNZIONALE IN C++ ............ 766
+2.1. Funzioni di ordine superiore................................... 766
+2.2. Funzioni e oggetti funzione.................................... 772
+3. IL SUPPORTO FUNZIONALE IN JAVA....................... 775
+3.1. Funzioni.................................................................. 775
+3.2. Composizione di funzioni ...................................... 779
+3.3. Funzioni ricorsive................................................... 780
+3.4. Applicazione di funzioni a collezioni
+di oggetti................................................................. 781
+3.5. Riuso mediante lexical scoping
+e lexical closure...................................................... 787
+3.6. Funzioni curry ........................................................ 789
+INDICE GENERALE XIII
+22 SISTEMI OPERATIVI
+1. INTRODUZIONE.......................................................... 791
+1.1. Evoluzione storica dei sistemi operativi................. 791
+1.2. Funzioni e caratteristiche dei sistemi operativi ...... 793
+1.3. Bootstrap ................................................................ 794
+1.4. Interfacce utente ..................................................... 794
+1.5. Tipologie di sistemi operativi................................. 795
+1.6. Tipologie di elaborazione ....................................... 796
+1.7. Introduzione ai processi.......................................... 796
+1.8. File system.............................................................. 797
+1.9. Gestione della sicurezza ......................................... 798
+2. ARCHITETTURA DEI SISTEMI OPERATIVI ............. 798
+2.1. Architettura di Windows ........................................ 800
+2.2. Architettura di Linux.............................................. 801
+3. WINDOWS.................................................................... 802
+3.1. File System Windows............................................. 802
+3.2. Gestione degli utenti............................................... 803
+3.3. Gestione dell’accesso alle risorse........................... 804
+3.4. Il prompt dei comandi in Windows........................ 805
+4. LINUX........................................................................... 807
+4.1. Boot........................................................................ 808
+4.2. File System Linux .................................................. 808
+4.3. Gestione degli utenti............................................... 811
+4.4. Shell........................................................................ 811
+4.5. Comandi Linux....................................................... 817
+5. GESTIONE DEI PROCESSI.......................................... 825
+5.1. Schedulazione dei processi..................................... 829
+6. GESTIONE DELL’INGRESSO E USCITA.................... 833
+7. GESTIONE DELLA MEMORIA CENTRALE .............. 835
+7.1. Memoria virtuale .................................................... 836
+8. PROGRAMMAZIONE C IN AMBIENTE LINUX ........ 837
+8.1. Funzioni API fondamentali di Linux...................... 838
+9. PROGRAMMAZIONE C IN AMBIENTE
+WINDOWS.................................................................... 852
+9.1. Programmazione basata su console........................ 853
+10. VIRTUALIZZAZIONE.................................................. 859
+23 PROGRAMMAZIONE CONCORRENTE
+E ASINCRONA
+1. CONCORRENZA E SINCRONIZZAZIONE
+TRA PROCESSI E THREAD......................................... 863
+1.1. Processi e IPC......................................................... 863
+1.2. Sezioni critiche e mutua esclusione........................ 863
+1.3. Semafori ................................................................. 864
+1.4. Monitor................................................................... 865
+1.5. Scambio di messaggi.............................................. 866
+1.6. Pipe/FIFO............................................................... 867
+1.7. Deadlock................................................................. 868
+1.8. Thread..................................................................... 869
+2. PROCESSI, IPC E THREAD NEL SISTEMA
+OPERATIVO WINDOWS ............................................. 871
+2.1. Processi e thread..................................................... 871
+2.2. Pipe......................................................................... 873
+2.3. Memoria condivisa e semafori ............................... 876
+2.4. Sezioni critiche e variabili di condizione ............... 883
+3. PROCESSI, IPC E THREAD NEL SISTEMA
+OPERATIVO LINUX .................................................... 889
+3.1. Processi e thread..................................................... 889
+3.2. Pipe e FIFO ............................................................ 892
+3.3. Memoria condivisa e semafori ............................... 897
+3.4. Mutex e variabili di condizione .............................. 909
+3.5. Semafori POSIX..................................................... 916
+4. CONCORRENZA E SINCRONIZZAZIONE
+NEL LINGUAGGIO C++ .............................................. 919
+4.1. Thread e tipi atomici............................................... 919
+4.2. Mutex e variabili di condizione .............................. 922
+5. CONCORRENZA E SINCRONIZZAZIONE
+NEL LINGUAGGIO JAVA ............................................ 927
+5.1. Creazione ed esecuzione di thread ......................... 928
+5.2. Sincronizzazione dell’accesso a risorse
+condivise.................................................................... 931
+5.3. Sincronizzazione dell’esecuzione dei thread.......... 933
+6. SCHEMA SCRITTORE/LETTORI................................ 939
+6.1. Schema scrittore/lettori in linguaggio C++ ............ 939
+6.2. Schema scrittore/lettori in linguaggio Java ............ 942
+7. PROGRAMMAZIONE ASINCRONA........................... 946
+7.1. Programmazione asincrona
+in linguaggio C++................................................... 946
+7.2. Programmazione asincrona in linguaggio Java ...... 949
+24 GESTIONE DI DATI CON DATABASE
+1. SISTEMI INFORMATIVI E SISTEMI
+INFORMATICI.............................................................. 957
+1.1. Aspetti intensionale ed estensionale dei dati.......... 957
+1.2. File di dati e loro organizzazione ........................... 958
+1.3. DBMS e database ................................................... 959
+1.4. Architettura logica di un sistema di gestione
+delle basi di dati...................................................... 961
+1.5. Database e transazioni............................................ 961
+2. PROGETTAZIONE LOGICA DI UNA BASE
+DI DATI......................................................................... 963
+2.1. Diagrammi concettuali e logici .............................. 964
+3. IL MODELLO DEI DATI RELAZIONALE................... 967
+3.1. Normalizzazione di una base di dati relazionale .... 969
+4. ALGEBRA E OPERATORI RELAZIONALI................. 971
+5. LINGUAGGIO SQL ...................................................... 976
+5.1. Le query in SQL: il costrutto SELECT.................... 976
+5.2. I comandi DML di SQL: INSERT, DELETE,
+UPDATE................................................................... 987
+5.3. Tipi di dato gestiti da MySQL/MariaDB................ 988
+5.4. I comandi DDL di SQL: CREATE, ALTER,
+RENAME e DROP ...................................................... 990
+5.5. Trigger e stored procedure ..................................... 992
+5.6. Gestione dei privilegi ............................................. 995
+5.7. Accesso concorrente ai dati.................................... 996
+6. ACCESSO A UNA BASE DI DATI
+IN LINGUAGGIO JAVA CON JDBC ............................ 998
+6.1. Architettura client-server e API DataBase
+Connectivity ........................................................... 1000
+6.2. Connessione a un DBMS e query SQL
+in linguaggio Java................................................... 1001
+XIV Manuale Cremonese di INFORMATICA e TELECOMUNICAZIONI
+6.3. Classi CRUD in linguaggio Java............................ 1004
+6.4. Uso di oggetti RowSet............................................ 1013
+6.5. Transazioni............................................................. 1019
+7. ACCESSO A UNA BASE DI DATI
+IN LINGUAGGIO C/C++ .............................................. 1020
+8. GEO-DATABASE E SISTEMI GIS ............................... 1022
+8.1. GIS ......................................................................... 1022
+8.2. Tipi di dato spaziale................................................ 1023
+8.3. Estensioni spaziali del linguaggio SQL.................. 1023
+9. HIBERNATE ................................................................. 1027
+9.1. ORM....................................................................... 1027
+9.2. Hibernate ................................................................ 1028
+25 LINGUAGGIO XML
+1. EXTENSIBLE MARKUP LANGUAGE........................ 1043
+1.1. Concetti di base ...................................................... 1043
+1.2. Entity reference....................................................... 1044
+1.3. Markup speciali...................................................... 1044
+1.4. Documenti XML “ben formati” ............................. 1045
+1.5. Namespace ............................................................. 1045
+2. MODELLARE DATI IN XML....................................... 1046
+2.1. Document Type Definition...................................... 1046
+2.2. XML Schema Definition......................................... 1050
+3. ESTRARRE DATI DA DOCUMENTI XML.................. 1057
+3.1. L’albero dei componenti di un documento ............. 1058
+3.2. Il linguaggio XPath ................................................ 1059
+3.3. Il linguaggio XQuery.............................................. 1062
+4. ELABORARE DOCUMENTI XML IN JAVA................ 1075
+4.1. SAX........................................................................ 1076
+4.2. DOM....................................................................... 1079
+4.3. Validazione di documenti XML con JAXP ............ 1083
+4.4. JAXB...................................................................... 1084
+26 FORMATO DATI JSON
+1. INTRODUZIONE.......................................................... 1089
+2. SINTASSI E TIPI DI DATO
+DEL LINGUAGGIO JSON............................................ 1090
+3. JSON SCHEMA............................................................. 1090
+3.1. Definizione di un oggetto
+in uno schema JSON schema ................................. 1091
+3.2. Definizione di un array in uno schema
+JSON schema ......................................................... 1093
+3.3. Restrizioni sui tipi in uno schema
+JSON schema ......................................................... 1095
+3.4. Riferimento a uno schema JSON schema .............. 1096
+4. JSON IN JAVASCRIPT E JSONP .................................. 1096
+5. JSON IN JAVA............................................................... 1097
+5.1. Lettura di un file in formato JSON......................... 1102
+5.2. Scrittura di un file in formato JSON....................... 1102
+6. SERIALIZZAZIONE E DE-SERIALIZZAZIONE
+CON GSON ................................................................... 1104
+6.1. Serializzazione e de-serializzazione
+di oggetti JSON ...................................................... 1106
+6.2. Serializzazione e de-serializzazione
+di array e collezioni ................................................ 1108
+27 SICUREZZA INFORMATICA
+DELLE TECNOLOGIE DI RETE
+1. INTRODUZIONE.......................................................... 1111
+1.1. Crittografia a chiave simmetrica ............................ 1111
+1.2. Crittografia a chiave asimmetrica........................... 1114
+1.3. Sintesi di messaggio ............................................... 1115
+1.4. Canali sicuri e insicuri............................................ 1118
+1.5. Autenticazione........................................................ 1119
+1.6. Segretezza............................................................... 1123
+1.7. Integrità .................................................................. 1123
+1.8. Identità e chiavi ...................................................... 1124
+2. PROTOCOLLI PER LA SICUREZZA........................... 1126
+2.1. NTLM .................................................................. 1126
+2.2. CHAP/EAP........................................................... 1126
+2.3. WPA2 ................................................................... 1127
+2.4. RADIUS............................................................... 1128
+2.5. Kerberos............................................................... 1129
+2.6. IPSec .................................................................... 1131
+2.7. SSL/TLS............................................................... 1132
+2.8. HTTPS e HSTS.................................................... 1133
+2.9. Gestione dei certificati ......................................... 1134
+2.10. Sicurezza sulle reti pubbliche............................... 1135
+2.11. Sicurezza sulle reti aziendali ................................ 1137
+28 PROGRAMMAZIONE DI RETE
+1. INTRODUZIONE.......................................................... 1139
+2. PROGRAMMAZIONE A LIVELLO
+DI SOCKET................................................................... 1139
+2.1. Gestione del protocollo UDP mediante socket....... 1139
+2.2. Gestione del protocollo TCP mediante socket........ 1159
+2.3. Server TCP concorrenti .......................................... 1177
+3. PROGRAMMAZIONE CLIENT/SERVER
+CON PROTOCOLLO HTTP.......................................... 1186
+3.1. Accesso a risorse web in linguaggio C/C++........... 1190
+3.2. Accesso a risorse web in linguaggio Java .............. 1197
+3.3. Esposizione di risorse web in linguaggio Java
+mediante Servlet ..................................................... 1204
+4. WEBSOCKET ............................................................... 1214
+4.1. Implementazione di un WebSocket server
+in linguaggio Java................................................... 1215
+4.2. Implementazione di un WebSocket client
+in linguaggio Java................................................... 1220
+29 SERVIZI DI RETE
+1. SERVIZI DI BASE ........................................................ 1225
+1.1. Servizio per il file system distribuito: SMB........... 1226
+1.2. DHCP ..................................................................... 1228
+1.3. DNS........................................................................ 1233
+1.4. NAT........................................................................ 1238
+1.5. Firewall................................................................... 1242
+2. SERVIZI PUBBLICI...................................................... 1245
+2.1. FTP......................................................................... 1245
+2.2. Proxy ...................................................................... 1249
+2.3. HTTP/HTTPS......................................................... 1251
+2.4. Posta elettronica ..................................................... 1255
+30 TECNOLOGIE WEB FRONT-END
+1. INTRODUZIONE.......................................................... 1263
+INDICE GENERALE XV
+2. HTML............................................................................ 1263
+2.1. Sintassi di base ....................................................... 1263
+2.2. Testo, link, immagini e media ................................ 1266
+2.3. Tabelle, liste e frame............................................... 1274
+2.4. Layout e semantica................................................. 1278
+2.5. Form....................................................................... 1280
+3. CSS................................................................................ 1286
+3.1. Sintassi ................................................................... 1286
+3.2. Selettori e media query........................................... 1288
+3.3. Proprietà comuni per regole CSS ........................... 1294
+3.4. Box Model e layout della pagina ............................ 1300
+4. JAVASCRIPT................................................................. 1311
+4.1. Linguaggio ........................................................... 1311
+4.2. JSON .................................................................... 1331
+4.3. Query-string di un URL....................................... 1332
+4.4. Programmazione asincrona e promises................ 1332
+4.5. Richieste HTTP - AJAX....................................... 1334
+4.6. DOM .................................................................... 1337
+4.7. Gestione degli eventi............................................ 1342
+4.8. BOM..................................................................... 1345
+4.9. API del browser.................................................... 1347
+4.10. Google Maps API................................................. 1348
+31 TECNOLOGIE WEB BACK-END
+1. PAGINE WEB DINAMICHE......................................... 1357
+2. LINGUAGGIO PHP ...................................................... 1358
+2.1. Sintassi ................................................................... 1358
+2.2. Inclusione di file..................................................... 1359
+2.3. Operatori................................................................. 1359
+2.4. Output..................................................................... 1359
+2.5. Tipi di errori ........................................................... 1359
+2.6. Interruzione di uno script ....................................... 1360
+2.7. Variabili.................................................................. 1360
+2.8. Tipi di dato ............................................................. 1360
+2.9. Variabili dinamiche ................................................ 1361
+3. COSTANTI.................................................................... 1361
+4. ARRAY.......................................................................... 1362
+5. VARIABILI CORRELATE AL WEB.............................. 1363
+6. FUNZIONI .................................................................... 1364
+6.1. Operatore Null coalescing...................................... 1364
+6.2. Funzioni definite dall’utente .................................. 1365
+6.3. Generatori............................................................... 1367
+6.4. Passaggio di parametri alle funzioni....................... 1367
+6.5. Scope e lifetime delle variabili................................ 1367
+6.6. Dichiarazioni di tipo scalare................................... 1368
+6.7. Dichiarazione di tipo ritornato dalle funzioni......... 1368
+6.8. Tipi NULL .............................................................. 1368
+6.9. Funzioni void........................................................ 1368
+7. CLASSI E OGGETTI..................................................... 1369
+7.1. Organizzare codice PHP che fa uso di classi.......... 1369
+7.2. Riferimenti alle variabili di istanza ........................ 1370
+7.3. Costruttore e distruttore.......................................... 1370
+7.4. Uguaglianza e copia di oggetti ............................... 1370
+7.5. Membri statici di una classe e costanti................... 1371
+7.6. I metodi magici....................................................... 1372
+8. METODI MAGICI OVERLOADING............................ 1372
+9. METODI MAGICI NON OVERLOADING................... 1374
+9.1. Ereditarietà ............................................................. 1374
+9.2. Overridding dei metodi .......................................... 1376
+9.3. Classi astratte.......................................................... 1377
+10. GESTIONE DELLE ECCEZIONI ................................. 1379
+11. ACQUISIZIONE DATI DA UN FORM HTML.............. 1380
+12. INTERAZIONE TRA PAGINE WEB............................. 1380
+13. VALIDAZIONE DELL’INPUT CON JAVASCRIPT...... 1381
+14. COOKIES E SESSIONI................................................. 1384
+14.1. Cookies................................................................. 1384
+14.2. Sessioni ................................................................ 1384
+14.3. Accesso a database in PHP................................... 1385
+15. ACCESSO A DATABASE OSPITATI SU DBMS
+MYSQL/MARIADB CON MYSQLI ............................. 1385
+15.1. Esempi di gestione di un database
+con mysqli............................................................. 1388
+15.2. Query parametriche con mysqli............................ 1388
+15.3. Inserimento in un database dei dati contenuti
+in un file inviato dal browser al server ................. 1391
+15.4. Controllo degli errori e degli input....................... 1392
+16. PDO PER L’ACCESSO A DBMS................................... 1394
+32 WEB SERVICE
+1. INTRODUZIONE.......................................................... 1399
+1.1. Definizione di web service ..................................... 1399
+1.2. Due tipologie di web service .................................. 1400
+2. SOAP............................................................................. 1401
+2.1. Struttura di un messaggio....................................... 1401
+2.2. Comunicazione in SOAP........................................ 1402
+3. WSDL............................................................................ 1404
+3.1. Definizione di un’interfaccia.................................. 1404
+3.2. Sezione astratta di un’interfaccia ........................... 1405
+3.3. Sezione concreta di un’interfaccia ......................... 1407
+4. PROGRAMMAZIONE DI SERVIZI SOAP/WSDL
+CON JAX-WS................................................................ 1408
+4.1. Il modello JAX-WS................................................ 1408
+4.2. Sviluppo di un servizio........................................... 1410
+4.3. Invocazione di un servizio...................................... 1415
+4.4. Riuso di servizi esistenti......................................... 1416
+5. REST ............................................................................. 1418
+5.1. Le risorse di rete ..................................................... 1418
+5.2. Interfaccia di accesso alle risorse ........................... 1419
+5.3. Servizi REST.......................................................... 1422
+6. PROGRAMMAZIONE DI SERVIZI REST
+CON JAX-RS................................................................. 1422
+6.1. Il modello JAX-RS................................................. 1422
+6.2. Sviluppo di un servizio........................................... 1422
+6.3. Invocazione di un servizio...................................... 1429
+6.4. Riuso di servizi....................................................... 1432
+33 PROGRAMMAZIONE DI APP PER
+DISPOSITIVI CON SISTEMA OPERATIVO
+ANDROID
+1. INTRODUZIONE.......................................................... 1433
+1.1. Versione di sistema e API level .............................. 1434
+XVI Manuale Cremonese di INFORMATICA e TELECOMUNICAZIONI
+2. STRUTTURA DI UNA APP PER SISTEMA
+OPERATIVO ANDROID............................................... 1435
+2.1. Elementi costitutivi di una app............................... 1435
+2.2. Struttura del progetto di una app in linguaggio
+Java e rappresentazione delle risorse...................... 1435
+2.3. Gradle..................................................................... 1438
+2.4. Manifest e distribuzione/rilascio
+di una app ............................................................... 1440
+2.5. Sviluppo in retro-compatibilità con Android
+Jetpack.................................................................... 1444
+2.6. Richiesta di permessi a tempo di esecuzione.......... 1444
+2.7. Gestione automatica e dinamica dei permessi
+della app ................................................................. 1446
+3. LAYOUT GRAFICO DELLE ACTIVITY IN CODICE
+JAVA E IN FORMATO XML ......................................... 1446
+3.1. Widget e layout....................................................... 1449
+3.2. Definire widget e layout nel codice Java ................ 1449
+3.3. Definire widget e layout in un file XML................ 1449
+3.4. ConstraintLayout.................................................... 1453
+4. CICLO DI VITA DELLE ACTIVITY E INTERAZIONE
+CON L’UTENTE ........................................................... 1456
+4.1. Ciclo di vita di una activity..................................... 1457
+4.2. Reagire al tocco dell’utente.................................... 1458
+4.3. Interagire con campi di testo .................................. 1461
+4.4. AlertDialog............................................................. 1461
+5. COMUNICAZIONE TRA COMPONENTI: GLI
+INTENT......................................................................... 1462
+5.1. Lanciare un componente tramite un intent
+implicito ................................................................. 1464
+5.2. Lanciare un componente mediante un intent
+esplicito .................................................................. 1465
+5.3. Trasferire dati tra componenti tramite extra........... 1466
+5.4. Lanciare una activity per ottenere un risultato........ 1466
+5.5. Mantenere lo stato di una app
+tramite Application................................................. 1468
+5.6. Gestire le preferenze di una app
+con SharedPreferences........................................... 1468
+6. ESEGUIRE OPERAZIONI
+IN BACKGROUND....................................................... 1472
+6.1. Ciclo di vita di un service....................................... 1473
+6.2. Limitazioni all’esecuzione di service
+in background......................................................... 1473
+7. GEOLOCALIZZATIONE.............................................. 1477
+7.1. Uso di Google Play Services.................................. 1477
+7.2. Accesso a servizi di geolocalizzazione................... 1477
+34 LINGUAGGIO PYTHON
+1. INTRODUZIONE......................................................... 1487
+1.1. Caratteristiche di Python ........................................ 1487
+1.2. Versioni di Python .................................................. 1487
+1.3. La Python Virtual Machine .................................... 1487
+1.4. L’interprete interattivo............................................ 1488
+1.5. La IDLE.................................................................. 1488
+1.6. Le variabili ............................................................. 1488
+2. TIPI DI DATO................................................................ 1489
+2.1. Dati numerici.......................................................... 1490
+2.2. Le stringhe.............................................................. 1491
+2.3. Manipolazione di stringhe...................................... 1492
+2.4. Valori booleani ....................................................... 1494
+2.5. Operazioni sui singoli bit ....................................... 1495
+2.6. I tipi bytes............................................................... 1495
+3. INPUT E OUTPUT ........................................................ 1496
+3.1. La funzione print() ............................................ 1496
+3.2. La funzione input() ............................................ 1497
+4. STRUTTURE DI CONTROLLO ................................... 1497
+4.1. Strutture di selezione.............................................. 1497
+4.2. Strutture iterative: i cicli while............................. 1498
+4.3. Strutture iterative: i cicli for e la funzione
+range() ................................................................ 1498
+4.4. Strutture iterative: continue e break.................. 1500
+5. STRUTTURE DATI....................................................... 1500
+5.1. Le tuple................................................................... 1500
+5.2. Le liste .................................................................... 1502
+5.3. I dizionari ............................................................... 1506
+5.4. Gli insiemi.............................................................. 1509
+6. LE FUNZIONI............................................................... 1511
+6.1. Funzioni predefinite ............................................... 1511
+6.2. Creazione di funzioni ............................................. 1513
+6.3. La programmazione funzionale.............................. 1515
+7. I MODULI ..................................................................... 1521
+7.1. Moduli predefiniti .................................................. 1521
+7.2. Moduli personalizzati............................................. 1526
+7.3. Pip Installation Package ........................................ 1526
+8. FILE............................................................................... 1527
+8.1. Creare o aprire un file............................................. 1527
+8.2. Manipolare un file .................................................. 1528
+8.3. Il costrutto with..................................................... 1530
+8.4. Esempi con file di testo .......................................... 1530
+8.5. Esempi con file binari............................................. 1530
+9. GESTIONE DEGLI ERRORI ........................................ 1530
+9.1. Errori di sintassi ed eccezioni................................. 1530
+9.2. Dichiarazioni assert................................................ 1531
+9.3. I blocchi try ed except ....................................... 1532
+9.4. Gestire le eccezioni ................................................ 1532
+9.5. Eccezioni definite dall’utente................................. 1533
+10. PROGRAMMAZIONE A OGGETTI ............................. 1533
+10.1. Le classi................................................................ 1533
+10.2. I parametri dei metodi e il parametro
+riflessivo............................................................... 1533
+10.3. Inizializzare gli attributi ....................................... 1534
+10.4. Attributi di istanza e di classe (statici).................. 1534
+10.5. Incapsulamento: attributi pubblici
+e privati................................................................... 1535
+10.6. Ereditarietà ........................................................... 1536
+10.7. Poliformismo........................................................ 1537
+10.8. Overloading degli operatori ................................. 1538
+11. I THREAD ..................................................................... 1539
+11.1. La classe Thread................................................... 1539
+11.2. Il modulo threading .............................................. 1540
+11.3. Sincronizzazione di thread ................................... 1542
+12. I SOCKET...................................................................... 1546
+12.1. Socket UDP.......................................................... 1546
+12.2. Socket TCP........................................................... 1548
+INDICE GENERALE XVII
+13. I DATABASE................................................................. 1552
+13.1. Connessione a un database SQLite ...................... 1552
+13.2. Metodi per database SQLite................................. 1552
+13.3. Creazione di tabelle.............................................. 1554
+13.4. Inserimento dati.................................................... 1555
+13.5. Lettura dei dati ..................................................... 1556
+13.6. Aggiornamento dei dati........................................ 1556
+13.7. Cancellazione dei dati .......................................... 1557
+13.8. Transazioni........................................................... 1557
+13.9. Connessione ad altri database............................... 1557
+14. XML .............................................................................. 1559
+14.1. Parsing di file XML.............................................. 1559
+14.2. Ricerca di elementi............................................... 1561
+14.3. Creazione di documenti XML.............................. 1562
+14.4. Modifica di documenti XML................................ 1563
+14.5. Da XML a stringhe............................................... 1564
+15. JSON.............................................................................. 1564
+15.1. Importazione di oggetti JSON.............................. 1564
+15.2. Lettura di oggetti JSON........................................ 1565
+15.3. Scrittura di oggetti JSON ..................................... 1565
+15.4. Formattazione di stringhe JSON .......................... 1566
+16. WEB SERVICES ........................................................... 1566
+16.1. Fruizione di web services..................................... 1566
+16.2. Il framework HTTP Flask .................................... 1571
+16.3. Implementazione di un web service REST .......... 1573
+35 NORMATIVE RELATIVE ALLO
+SVILUPPO DEL SOFTWARE
+1. QUALITÀ DEL SOFTWARE NELLE NORME ............ 1577
+1.1. ISO 9001: Sistema di gestione della qualità......... 1579
+1.2. ISO/IEC 90003..................................................... 1579
+1.3. ISO/IEC 12207: Ciclo di vita del software........... 1579
+1.4. ISO/IEC 25000: Qualità del software .................. 1583
+1.5. ISO 25010: Modelli di Qualità............................. 1584
+1.6. ISO 25020: La misurazione del software ............. 1584
+1.7. Metriche per il software: LOC ............................. 1584
+1.8. Metriche per il software: numero ciclomatico
+(ISO/IEC 25023) .................................................. 1585
+1.9. Metriche per il software: Function Point
+(ISO/IEC 25023) .................................................. 1586
+1.10. ISO/IEC 40500: Linee guida per l’accessibilità
+dei contenuti Web (WCAG) ................................. 1589
+1.11. WCAG 2.0............................................................ 1590
+2. SICUREZZA DEL SOFTWARE NELLE NORME ........ 1591
+2.1. ISO/IEC 22301: Sistemi di gestione
+della continuità operativa ....................................... 1592
+2.2. ISO/IEC 27001: Sistemi di gestione
+della sicurezza delle informazioni.......................... 1592
+2.3. SGSI: Sistemi di gestione della sicurezza
+delle informazioni .................................................. 1593
+2.4. ISO/IEC 27001: Terminologie ............................... 1594
+3. IL QUADRO NORMATIVO ITALIANO....................... 1594
+3.1. Frodi e crimini informatici. Legge n. 547/1993 ..... 1594
+3.2. Riservatezza. General Data Protection
+Regulation (GDPR)................................................ 1596
+3.3. Pubblica Amministrazione. D.Lgs. 159/2006,
+CAD ....................................................................... 1597
+3.4. Firma elettronica .................................................... 1598
+3.5. Trasparenza ............................................................ 1599
+3.6. CAD 3.0 ................................................................. 1599
+3.7. Livelli di sicurezza: D.Lgs. n. 65/2018,
+Direttiva NIS .......................................................... 1600
+TELECOMUNICAZIONI
+36 CARATTERIZZAZIONE DEI SEGNALI
+1. ANALISI DEI SEGNALI NEL DOMINIO
+DEL TEMPO.................................................................. 1603
+1.1. Definizione e classificazione dei segnali................ 1603
+1.2. Descrizione matematica di un segnale
+sinusoidale.............................................................. 1604
+1.3. Altri tipi di segnali periodici................................... 1608
+2. ANALISI NEL DOMINIO DELLA FREQUENZA........ 1608
+2.1. Strumenti matematici per l’analisi nel dominio
+della frequenza ....................................................... 1610
+2.2. Determinazione dello spettro e della banda
+di un segnale periodico o modulato........................ 1611
+2.3. Proprietà utili nella determinazione dello spettro
+e della banda di un segnale..................................... 1613
+2.4. Caratteristiche dell’analisi nel dominio della
+frequenza di segnali discreti................................... 1618
+3. CARATTERISTICHE FISICHE DEI SEGNALI
+ACUSTICI E VIDEO..................................................... 1621
+3.1. Definizioni dei segnali acustici .............................. 1621
+3.2. Il segnale video analogico ...................................... 1624
+37 DECIBEL
+1. DEFINIZIONE .............................................................. 1627
+2. GUADAGNO E ATTENUAZIONE
+DI UN QUADRIPOLO .................................................. 1628
+3. LIVELLI ASSOLUTI DI POTENZA
+E TENSIONE................................................................. 1628
+3.1. Livello assoluto di potenza: dBm e dBW............... 1628
+3.2.	Livello assoluto di tensione: dBV, dBμV, dBu ....... 1628
+3.3. Calcolo dei livelli di potenza a partire
+dalla conoscenza del valore di tensione
+e dell’impedenza di carico...................................... 1630
+4. PASSAGGIO INVERSO................................................ 1630
+5. RAPPORTO S/N............................................................. 1631
+6. BILANCIO DI POTENZA DI UN COLLEGAMENTO
+O LINK BUDGET ......................................................... 1632
+7. FORMULARIO SU ALTRE UNITÀ
+DI TRASMISSIONE...................................................... 1634
+38 S/N, RUMORE, DISTORSIONI
+E INTERFERENZE
+1. CALCOLO DEL RAPPORTO S/N ................................. 1637
+2. RUMORE ...................................................................... 1637
+2.1. Definizione, modello di riferimento e tipi
+di rumore ................................................................ 1637
+3. RUMORE INTERNO..................................................... 1638
+3.1. Definizioni.............................................................. 1638
+XVIII Manuale Cremonese di INFORMATICA e TELECOMUNICAZIONI
+3.2. Rumore termico...................................................... 1639
+3.3. Rumore granulare................................................... 1640
+3.4. Rumore 1/f.............................................................. 1640
+4. CARATTERIZZAZIONE DELLE SORGENTI DI
+RUMORE ...................................................................... 1640
+4.1. Temperatura di rumore ........................................... 1641
+4.2. Rapporto G/T.......................................................... 1643
+4.3. Fattore di rumore e figura di rumore ...................... 1643
+4.4. Fattore di rumore di una cascata
+di quadripoli ........................................................... 1643
+4.5. Importanza del fattore di rumore
+e della figura di rumore .......................................... 1644
+4.6. Legame tra fattore di rumore e sensibilità
+di un ricevitore........................................................ 1644
+4.7. Legame tra fattore di rumore e temperatura
+di rumore ................................................................ 1645
+4.8. Tabelle riassuntive.................................................. 1645
+5. RUMORE ESTERNO .................................................... 1648
+5.1. Rumore pesato........................................................ 1649
+6. DISTORSIONI .............................................................. 1651
+6.1. Condizioni di non distorsione................................. 1651
+7. TIPI DI DISTORSIONE ................................................ 1652
+7.1. Distorsione da non linearità.................................... 1652
+7.2. Distorsione di ampiezza ......................................... 1656
+7.3. Distorsione di fase e di ritardo di gruppo ............... 1656
+8. INTERFERENZE .......................................................... 1657
+39 PORTANTI FISICI
+1. MODELLO DI RIFERIMENTO E FUNZIONI
+FONDAMENTALI DI UN SISTEMA
+DI TRASMISSIONE...................................................... 1659
+2. MEZZI TRASMISSIVI.................................................. 1660
+3. CLASSIFICAZIONE DEI PORTANTI FISICI .............. 1661
+4. COPPIE SIMMETRICHE INTRECCIATE
+O TWISTED PAIR......................................................... 1662
+4.1. Diafonia o crosstalk................................................ 1663
+5. CAVI COASSIALI......................................................... 1664
+5.1. Fattore di velocità e velocità
+di propagazione ...................................................... 1664
+5.2. Attenuazione........................................................... 1665
+6. TEORIA DELLE LINEE DI TRASMISSIONE.............. 1666
+6.1. Modello elettrico .................................................... 1666
+6.2. Impedenza caratteristica e adattamento.................. 1666
+6.3. Propagazione su linea adattata ............................... 1667
+6.4. Comportamento di una linea disadattata ................ 1667
+6.5. Parametri per la valutazione
+del disadattamento.................................................. 1669
+6.6.	Adattamento di carichi resistivi con tronco λ/4...... 1670
+6.7. Comportamento reattivo delle linee
+di trasmissione........................................................ 1670
+6.8. Diagramma di Smith (Smith chart) ........................ 1671
+6.9. Adattamento di carichi complessi .......................... 1672
+40 FIBRE OTTICHE
+1. SEGNALE OTTICO ...................................................... 1675
+2. STRUTTURA DI UNA FIBRA OTTICA ....................... 1676
+3. CLASSIFICAZIONE E STANDARDIZZAZIONE
+DELLE FIBRE OTTICHE ............................................. 1677
+3.1. Attenuazione di una fibra ottica e finestre
+di trasmissione........................................................ 1677
+3.2. Standardizzazione delle fibre ottiche ..................... 1678
+3.3. Cavi ottici ............................................................... 1679
+4. SISTEMI DI TRASMISSIONE SU FIBRA OTTICA..... 1680
+4.1. Trasmettitori e ricevitori ottici................................ 1680
+4.2. Connettori e giunti.................................................. 1680
+4.3. Sorgenti ottiche....................................................... 1682
+4.4. Fotorivelatori.......................................................... 1682
+5. DISPERSIONI CAUSATE
+DA UNA FIBRA OTTICA ............................................. 1682
+5.1. Dispersione modale ................................................ 1683
+5.2. Dispersione cromatica ............................................ 1684
+5.3. Fenomeni non lineari: PMD e FWM...................... 1685
+6. BANDA E CAPACITÀ TRASMISSIVA DI UNA
+FIBRA OTTICA ............................................................ 1685
+6.1. Prodotto banda-distanza ......................................... 1685
+6.2. Banda modale (modal bandwith)............................ 1686
+6.3. Banda in presenza di dispersione cromatica........... 1687
+7. DIMENSIONAMENTO DI UN SISTEMA
+DI TRASMISSIONE SU FIBRA OTTICA..................... 1687
+7.1. Bilancio di potenza o link budget........................... 1687
+7.2. Dispersione totale e banda di un sistema
+di trasmissione su fibre ottiche............................... 1688
+8. APPLICAZIONI ED EVOLUZIONE DEI SISTEMI
+SU FIBRE OTTICHE..................................................... 1688
+8.1. Amplificatori ottici................................................. 1689
+8.2. Trasmissione solitonica .......................................... 1689
+8.3. Sistemi WDM......................................................... 1690
+8.4. Codifica PAM4....................................................... 1693
+41 PORTANTE RADIO
+1. CARATTERISTICHE FONDAMENTALI
+DELLE ONDE ELETTROMAGNETICHE ................... 1695
+1.1. Definizioni.............................................................. 1695
+1.2. Propagazione nello spazio libero............................ 1696
+1.3. Propagazione delle radioonde e loro
+classificazione ........................................................ 1698
+1.4. Propagazione per onda diretta o in visibilità
+ottica (line of sight)................................................. 1700
+1.5. Fading..................................................................... 1703
+1.6. Propagazione per onda spaziale (sky wave)............ 1704
+1.7. Assorbimento ......................................................... 1705
+2. ANTENNE..................................................................... 1706
+2.1. Caratteristiche fondamentali di un sistema
+d’antenna ................................................................ 1707
+2.2. Caratterizzazione delle antenne riceventi............... 1710
+3. PRINCIPALI TIPI DI ANTENNE.................................. 1711
+3.1. Antenne omnidirezionali........................................ 1711
+3.2. Antenna ground plane ............................................ 1713
+3.3. Antenne caricate..................................................... 1714
+3.4. Dipolo ripiegato (folded dipole)............................. 1714
+4. ANTENNE DIRETTIVE UNIDIREZIONALI............... 1714
+4.1. Antenna Yagi .......................................................... 1715
+4.2. Antenne collineari e a cortina................................. 1716
+INDICE GENERALE XIX
+4.3. Antenne a parabola................................................. 1716
+4.4. Connettori e adattatori per antenne......................... 1718
+5. ANTENNE MIMO (MULTIPLE IN
+MULTIPLE OUT).......................................................... 1718
+6. ATTENUAZIONE DI UN COLLEGAMENTO RADIO ... 1719
+6.1. Attenuazione dello spazio libero ............................ 1720
+7. BILANCIO DI POTENZA (LINK BUDGET)
+DI UN COLLEGAMENTO RADIO............................... 1721
+42 TECNICHE DI MODULAZIONE
+ANALOGICHE
+1. MODELLO DI RIFERIMENTO PER LA
+TRASMISSIONE IN ALTA FREQUENZA
+DI UN SEGNALE ANALOGICO .................................. 1725
+2. TRASMISSIONI RADIO A MODULAZIONE
+DI AMPIEZZA .............................................................. 1726
+2.1. Modulazione di ampiezza (AM)............................. 1726
+2.2. Trasmettitori AM.................................................... 1730
+2.3. Metodi per generare la modulazione AM............... 1731
+3. RICEVITORI RADIO SUPERETERODINA................. 1732
+3.1. Frequenza immagine .............................................. 1734
+3.2. Tipi di demodulazione............................................ 1734
+3.3. Demodulazione di un segnale modulato AM
+tramite il rivelatore di inviluppo............................. 1734
+4. ALTRI TIPI DI MODULAZIONE DI AMPIEZZA ........ 1736
+4.1. Modulazione DSB-SC............................................ 1736
+4.2. Modulazione SSB................................................... 1736
+4.3. Modulatori DSB-SC e SSB.................................... 1738
+4.4. Demodulatori DSB-SC e SSB................................ 1739
+4.5. Modulazione VSB.................................................. 1740
+5. MODULAZIONE DI FREQUENZA.............................. 1740
+5.1. Modulatori FM....................................................... 1742
+5.2. Trasmettitori FM .................................................... 1744
+5.3. Demodulazione di un segnale FM.......................... 1745
+5.4. Circuiti di pre-enfasi e de-enfasi ............................ 1747
+6. MODULAZIONE DI FASE ........................................... 1748
+7. PRESTAZIONI DELLE MODULAZIONI
+AM E FM IN PRESENZA DI RUMORE........................ 1748
+43 DIGITALIZZAZIONE DEI SEGNALI
+ANALOGICI
+1. VANTAGGI DELLE TECNICHE DIGITALI................. 1751
+2. DIGITALIZZAZIONE DI SEGNALI ANALOGICI ...... 1751
+2.1. Classificazione e tipi di CODEC............................ 1752
+2.2. Qualità di riproduzione e Mean Opinion Score...... 1753
+3. CODIFICA PCM (PULSE CODE MODULATION)....... 1755
+3.1. Campionamento e ricostruzione del segnale
+analogico ................................................................ 1757
+3.2. Codifica (A/D), decodifica (D/A) e quantizzazione
+uniforme del segnale campionato........................... 1757
+3.3. Compressione e quantizzazione non uniforme....... 1758
+4. DIGITAL SIGNAL PROCESSING ................................ 1761
+5. TECNICHE DI MULTIPLAZIONE............................... 1762
+5.1. Multiplazione FDM, Frequency Division
+Multiplexing ........................................................... 1762
+5.2. Multiplazione TDM, Time Division
+Multiplexing ........................................................... 1764
+44 DATI ACQUISITI TRAMITE SENSORI
+1. SISTEMI DI ACQUISIZIONE DATI............................. 1769
+1.1. Elaborazione digitale dei segnali............................ 1769
+1.2. Sistemi di acquisizione dati.................................... 1769
+1.3. Sistemi di distribuzione dati................................... 1770
+1.4. Conversione analogica / digitale
+e digitale / analogica................................................ 1771
+2. SENSORI....................................................................... 1777
+2.1. Introduzione ......................................................... 1777
+2.2. Sensori di temperatura.......................................... 1780
+2.3. Sensori di umidità................................................. 1788
+2.4. Sensori di pressione.............................................. 1790
+2.5. Sensori di forza..................................................... 1791
+2.6. Sensori di posizione, velocità e accelerazione ..... 1793
+2.7. Sensori di campo magnetico................................. 1796
+2.8. Sensori di radiazione luminosa............................. 1799
+2.9. Sensori intelligenti ............................................... 1804
+2.10. Applicazioni dei sensori ....................................... 1806
+45 CARATTERISTICHE GENERALI
+DEI SISTEMI DIGITALI E DATI
+1. MODELLO DI RIFERIMENTO .................................... 1811
+2. ELEMENTI DI TEORIA DELL’INFORMAZIONE....... 1811
+2.1. Definizioni.............................................................. 1811
+3. CAPACITÀ DI CANALE .............................................. 1813
+3.1. Capacità di un canale in presenza di rumore
+bianco ..................................................................... 1814
+3.2. Legame tra bit rate e velocità di modulazione........ 1814
+4. CODIFICA DI CANALE PER LA PROTEZIONE
+CONTRO GLI ERRORI................................................. 1816
+4.1. Codici a blocco per la rivelazione degli errori........ 1817
+4.2. Correzione degli errori per ritrasmissione.............. 1818
+4.3. Correzione diretta degli errori (FEC) ..................... 1819
+5. NOZIONI FONDAMENTALI DI TRASMISSIONE
+DATI.............................................................................. 1821
+5.1. Tipi di trasmissione ................................................ 1823
+46 TECNICHE DI TRASMISSIONE PER
+SEGNALI DIGITALI
+1. TRASMISSIONE DI SEGNALI DIGITALI
+IN BANDA BASE.......................................................... 1825
+1.1. Modello di riferimento .......................................... 1825
+1.2. Codici binari........................................................... 1826
+1.3. Codici pseudoternari AMI, MLT-3, HDB-3 ........... 1826
+1.4. Codici mB-nB......................................................... 1826
+1.5. Codici multilivello.................................................. 1830
+1.6. Rigenerazione......................................................... 1831
+1.7. Jitter........................................................................ 1832
+1.8. Interferenza intersimbolica..................................... 1832
+1.9. Diagramma a occhio............................................... 1833
+2. TECNICHE DI MODULAZIONE PER SISTEMI
+DIGITALI...................................................................... 1834
+2.1. Caratteristiche generali delle modulazioni
+digitali................................................................... 1834
+XX Manuale Cremonese di INFORMATICA e TELECOMUNICAZIONI
+2.2. Classificazione delle modulazioni digitali ........... 1837
+2.3. Modulazioni di ampiezza ASK e OOK ................ 1837
+2.4. Modulazioni di fase M-PSK................................. 1837
+2.5. Modulazione M-QAM e M-APSK....................... 1839
+2.6. Modulatore I-Q..................................................... 1840
+2.7. Modulazioni di frequenza..................................... 1842
+2.8. Determinazione della probabilità d’errore ........... 1844
+2.9. Ponti radio digitali................................................ 1846
+2.10. Collegamenti via satellite..................................... 1848
+3. TECNICHE DI TRASMISSIONE SPREAD
+SPECTRUM .................................................................. 1850
+3.1. Direct sequence spread spectrum........................... 1851
+3.2. Frequency hopping spread spectrum...................... 1852
+4. TECNICHE DI TRASMISSIONE PER SISTEMI
+A LARGA BANDA........................................................ 1852
+4.1. OFDM (Orthogonal Frequency Division
+Multiplexing).......................................................... 1852
+5. VALUTAZIONE DELLA QUALITÀ DEL SEGNALE
+RICEVUTO NELLE MODULAZIONI DIGITALI ........ 1854
+5.1. EVM (Error Vector Magnitude)............................. 1854
+5.2. MER (Modulation Error Rate)............................... 1855
+47 INTRODUZIONE ALLE RETI E RETI
+A COMMUTAZIONE DI CIRCUITO
+1. MODELLO DI RIFERIMENTO PER UNA GENERICA
+RETE DI TELECOMUNICAZIONE ............................. 1857
+1.1. Caratteristiche generali dei sistemi di accesso ....... 1859
+1.2. Caratteristiche generali dei nodi di rete.................. 1860
+1.3. Principali organizzazioni internazionali
+di standardizzazione ............................................... 1861
+2. RETI A COMMUTAZIONE DI CIRCUITO................... 1862
+2.1. Rete telefonica PSTN............................................. 1862
+2.2. Sistemi di trasmissione........................................... 1864
+2.3. Gerarchia di multiplazione PDH ............................ 1864
+2.4. Gerarchia di multiplazione SDH ............................ 1866
+2.5. Commutazione di segnali codificati in PCM.......... 1867
+2.6. Sistemi di segnalazione .......................................... 1868
+48 RETI A COMMUTAZIONE DI PACCHETTO
+1. CARATTERISTICHE GENERALI DELLE RETI
+A COMMUTAZIONE DI PACCHETTO........................ 1869
+2. MODELLO DI RIFERIMENTO OSI............................. 1870
+3. LA SUITE DI PROTOCOLLI TCP/IP............................ 1873
+3.1. Classificazione delle reti a commutazione
+di pacchetto ............................................................ 1874
+3.2. Topologia fisica e topologia logica di una rete....... 1875
+4. PROTOCOLLI DELLO STRATO DI APPLICAZIONE .. 1876
+5. PROTOCOLLI DELLO STRATO DI TRASPORTO...... 1877
+5.1. Protocollo TCP....................................................... 1877
+5.2. Protocollo UDP ...................................................... 1879
+5.3. Evoluzione dei protocolli di trasporto .................... 1879
+6. PROTOCOLLI DELLO STRATO INTERNET .............. 1880
+6.1. Protocollo IPv4....................................................... 1880
+6.2. Formato di un pacchetto IPv4................................. 1881
+6.3. Indirizzi IPv4.......................................................... 1881
+6.4. La funzione NAT.................................................... 1891
+6.5. Protocolli ICMP e ARP .......................................... 1892
+6.6. Protocollo IPv6....................................................... 1892
+49 RETI LOCALI CABLATE E WIRELESS
+1. DEFINIZIONE E ASPETTI GENERALI....................... 1905
+2. CABLAGGIO STRUTTURATO.................................... 1905
+2.1. Cavi a coppie simmetriche per LAN...................... 1907
+2.2. Connettori............................................................... 1911
+3. TECNOLOGIE ETHERNET.......................................... 1912
+3.1. Topologia fisica ...................................................... 1913
+4. STANDARDIZZAZIONE DELLE LAN:
+IL PROGETTO IEEE 802............................................... 1914
+4.1. Protocollo LLC....................................................... 1915
+4.2. Header SNAP ......................................................... 1916
+4.3. Protocollo MAC..................................................... 1916
+4.4. Indirizzo MAC ....................................................... 1916
+5. STANDARD PER LE TECNOLOGIE
+ETHERNET................................................................... 1916
+5.1. Apparati per LAN Ethernet .................................... 1917
+5.2. Power over Ethernet............................................... 1919
+5.3. Caratteristiche fisiche delle Fast Ethernet
+e Gigabit Ethernet................................................... 1920
+6. VIRTUAL LAN ............................................................. 1920
+6.1. Principali tipi di VLAN.......................................... 1922
+6.2. Procedura base per la creazione
+e la configurazione delle VLAN............................. 1923
+7. MULTILAYER SWITCH E CONTENT SWITCH ......... 1925
+8. ARCHITETTURA FISICA DELLE RETI...................... 1925
+8.1. Reti con architettura piatta ..................................... 1925
+8.2. Reti con architettura gerarchica.............................. 1926
+9. WIRELESS LAN O RADIO LAN.................................. 1926
+9.1. Modello di riferimento per le WLAN a standard
+IEEE 802.11 o Wi-Fi .............................................. 1926
+9.2. Canali radio ............................................................ 1928
+9.3. Apparati Wi-Fi........................................................ 1932
+10. GUIDA ALL’INSTALLAZIONE E
+CONFIGURAZIONE DI UNA WIRELESS LAN
+(WI-FI)........................................................................... 1933
+10.1. Principali parametri di configurazione................. 1933
+10.2. Elementi di progetto di una WLAN ..................... 1935
+10.3. Sicurezza degli accessi Wi-Fi............................... 1937
+11. VALUTAZIONE DEI RITARDI
+NELLE COMUNICAZIONI IN RETE........................... 1945
+11.1. Latenza ................................................................. 1945
+11.2. Jitter...................................................................... 1946
+11.3. Round Trip Time o tempo di andata-ritorno.......... 1946
+12. METODI PER LA CORREZIONE D’ERRORE
+E IL CONTROLLO DI FLUSSO.................................... 1947
+13. VALUTAZIONE DELLA CAPACITÀ TRASMISSIVA
+DI UNA RETE: THROUGHPUT E GOODPUT............. 1949
+13.1. Calcolo del throughput massimo offerto
+dal protocollo TCP................................................ 1949
+13.2. Calcolo del throughput massimo offerto
+dal protocollo UDP............................................... 1949
+13.3. Calcolo del throughput offerto da un protocollo
+con correzione d’errore e controllo di flusso........ 1951
+INDICE GENERALE XXI
+50 ARCHITETTURA E CONFIGURAZIONE
+DELLE RETI IP
+1. CARATTERISTICHE GENERALI................................ 1953
+2. PIANI DI INDIRIZZAMENTO PER RETI
+E SOTTORETI IP .......................................................... 1954
+3. ROUTER ....................................................................... 1955
+3.1. Caratteristiche generali dei router .......................... 1957
+3.2. Identificazione delle interfacce e loro
+numerazione nei router Cisco................................. 1958
+3.3. Tabella di routing.................................................... 1959
+3.4. Principio di funzionamento di un router................. 1960
+3.5. Routing statico........................................................ 1961
+3.6. Routing dinamico ................................................... 1962
+3.7. I protocolli di First Hop Redundancy (FHRP)....... 1969
+4. CONFIGURAZIONE DI BASE DI UN ROUTER
+CISCO ........................................................................... 1970
+4.1. Sistema operativo IOS............................................ 1970
+4.2. Configurazione tramite interfaccia a linea
+di comando ............................................................. 1971
+4.3. Configurazione tramite interfaccia grafica............. 1979
+51 RETI GEOGRAFICHE E SISTEMI DI ACCESSO
+REMOTO
+1. CARATTERISTICHE GENERALI................................ 1985
+1.1. Definizioni............................................................ 1985
+1.2. Principali tipi di sistemi di accesso ...................... 1985
+1.3. Classificazione degli apparati impiegati............... 1986
+1.4. Collegamenti a commutazione di circuito............ 1987
+1.5. Linee dedicate ...................................................... 1990
+1.6. Principali interfacce DTE-DCE ........................... 1991
+1.7. Sistemi xDSL ....................................................... 1992
+1.8. Rete di accesso e distribuzione su fibra ottica...... 2000
+1.9. Informazioni all’utenza - Bollini AGCOM .......... 2004
+1.10. Elementi di progettazione..................................... 2006
+1.11. Parametri per la valutazione della qualità
+di un accesso......................................................... 2006
+2. PROTOCOLLI DI LINEA ............................................. 2008
+2.1. Protocollo HDLC ................................................... 2008
+2.2. Protocolli della famiglia LAP................................. 2010
+2.3. Protocollo PPP........................................................ 2011
+3. CARATTERISTICHE GENERALI DELLE RETI
+DI TIPO VIRTUAL CIRCUIT ....................................... 2012
+3.1. X.25........................................................................ 2012
+3.2. Frame Relay ........................................................... 2012
+3.3. ATM (Asynchronous Transfer Mode)..................... 2014
+4. VPN (VIRTUAL PRIVATE NETWORK)....................... 2017
+4.1. Le tipologie di VPN................................................ 2017
+4.2. Il servizio di Authentication, Authorization
+& Accounting (AAA) ............................................. 2018
+4.3. IPsec ....................................................................... 2019
+4.4. Cenni di configurazione e verifica di una VPN
+site-to-site IPsec con apparati Cisco....................... 2020
+4.5. Programmi per l’uso delle VPN Remote-access..... 2022
+4.6. I tunnel GRE – Generic Routing Encapsulation .... 2022
+5. SICUREZZA DELLE RETI ........................................... 2023
+5.1. Sicurezza perimetrale ............................................. 2023
+5.2. Access Control List (ACL)..................................... 2025
+6. COMANDI DI DIAGNOSTICA
+PER LA VERIFICA DELLA CONFIGURAZIONE
+E DELLA CONNETTIVITÀ TCP/IP ............................. 2029
+6.1. Il comando ping...................................................... 2029
+6.2. Protocolli e software per la gestione
+e la diagnostica di una rete ..................................... 2032
+52 RETI DI NUOVA GENERAZIONE
+1. INTRODUZIONE.......................................................... 2037
+1.1. Definizioni.............................................................. 2037
+2. RETI CONVERGENTI IN AMBITO PRIVATO ............ 2037
+3. PROTOCOLLI PER LA COMUNICAZIONE
+MULTIMEDIALE SU RETI IP...................................... 2042
+3.1. Protocolli RTP e RTCP........................................... 2042
+3.2. Protocollo SIP......................................................... 2043
+3.3. Protocolli H.323 ..................................................... 2045
+3.4. Protocolli MGCP/MEGACO ................................. 2046
+4. QoS (QUALITY OF SERVICE)..................................... 2047
+4.1. Architetture IntServ, DiffServ ................................ 2047
+4.2. La configurazione della QoS.................................. 2048
+5. MPLS (MULTIPROTOCOL LABEL SWITCHING)...... 2049
+6. CARATTERISTICHE GENERALI DELLE NGN.......... 2051
+6.1. IMS (IP Multimedia Subsystem) ............................ 2056
+7. SOFTWARIZZAZIONE E VIRTUALIZZAZIONE
+DELLE RETI DI TELECOMUNICAZIONI .................. 2057
+7.1. Software-Defined Networking (SDN)..................... 2058
+7.2. Network Functions Virtualization (NFV)............... 2063
+7.3. Software Defined WAN (SD-WAN)........................ 2067
+7.4. Architetture di rete di nuova generazione
+con NFV e SDN...................................................... 2068
+53 DATA CENTER
+1. NOZIONI GENERALI E TECNOLOGIE...................... 2069
+1.1. Lo storage ............................................................ 2069
+1.2. Tecnologie di storage ........................................... 2069
+1.3. Tecnologie per le SAN: iSCSI, FC, FCoE............ 2073
+1.4. Virtualizzazione.................................................... 2078
+1.5. Container e microservizi ...................................... 2081
+1.6. Strumenti di automazione e orchestrazione.......... 2084
+1.7. vSwitch (virtual Switch)....................................... 2086
+1.8. Topologia di rete Spine-Leaf................................ 2087
+1.9. Consolidamento.................................................... 2088
+1.10. Automazione del data center ................................ 2088
+1.11. Architettura multitenancy..................................... 2089
+1.12. Load balancing..................................................... 2089
+1.13. Infrastruttura iperconvergente .............................. 2089
+2. STRUTTURA DI UN DATA CENTER .......................... 2090
+2.1. Architettura di un data center................................. 2090
+2.2. Cablaggio strutturato.............................................. 2093
+2.3. Green Data Center.................................................. 2093
+2.4. Disaster Recovery .................................................. 2094
+3. SERVIZI OFFERTI TRAMITE I DATA CENTER ......... 2094
+3.1. Cloud computing .................................................... 2094
+3.2. Modelli di servizio: SaaS, PaaS, IaaS,
+IT as a service......................................................... 2095
+3.3. Modelli di distribuzione: Cloud pubblico, privato,
+community, ibrido .................................................. 2095
+XXII Manuale Cremonese di INFORMATICA e TELECOMUNICAZIONI
+54 COMUNICAZIONE UNIFICATA,
+COLLABORAZIONE E SMART WORKING
+1. INTRODUZIONE.......................................................... 2097
+1.1. Benefici .................................................................. 2097
+1.2. Servizi principali coinvolti nel processo
+collaborativo........................................................... 2098
+2. EVOLUZIONE DEL SERVIZIO.................................... 2098
+1.1. Cenni storici ........................................................... 2098
+1.2. L’evoluzione del mercato ....................................... 2100
+3. ARCHITETTURA DI RIFERIMENTO.......................... 2101
+2.1. Evoluzione verso il Cloud attraverso modelli
+ibridi ....................................................................... 2103
+4. LA COGNITIVE COLLABORATION........................... 2105
+5. SMART WORKING ...................................................... 2106
+4.1. Lo Smart Working in Italia..................................... 2106
+55 SISTEMI PER LA COMUNICAZIONE
+IN MOBILITÀ
+1. CONCETTI GENERALI RELATIVI AI SISTEMI
+CELLULARI ................................................................. 2107
+1.1. Riutilizzo delle frequenze....................................... 2107
+1.2. Tecniche di accesso multiplo.................................. 2108
+1.3. Procedure per la gestione della mobilità ................ 2109
+1.4. Evoluzione dei sistemi cellulari ............................. 2109
+2. GSM, GLOBAL SYSTEM FOR MOBILE
+COMMUNICATION...................................................... 2111
+2.1. Mobile Station........................................................ 2112
+2.2. BSS (Base Station Subsystem) ............................... 2113
+2.3. SMSS (Switching and Management SubSystem) ... 2113
+2.4. Interfaccia radio (Air Interface).............................. 2114
+2.5. Numeri e identità utilizzati nel GSM ..................... 2117
+2.6. Architettura dei protocolli di segnalazione............. 2118
+2.7. OMSS (Operation and Maintenance Subsystem)... 2119
+2.8. Servizi supportati da una rete GSM........................ 2120
+3. GPRS, GENERAL PACKET RADIO SERVICE ............ 2121
+3.1. Architettura del GPRS............................................ 2121
+3.2. Protocolli GPRS ..................................................... 2121
+3.3. Canali fisici e canali logici GPRS .......................... 2123
+3.4. GPRS Mobility Management (GMM).................... 2124
+3.5. GPRS Session Management ................................... 2125
+3.6. Servizi offerti dal GPRS ........................................ 2125
+3.7. Procedure operative GPRS..................................... 2126
+3.8. EDGE (Enhanced Data rate for GSM Evolution).. 2126
+4. SISTEMA UMTS........................................................... 2127
+4.1. Standardizzazione dei sistemi
+per la comunicazione mobile.................................. 2127
+4.2. Architettura del sistema UMTS.............................. 2127
+4.3. Convergenza fisso mobile ...................................... 2128
+4.4. Accesso radio UTRA.............................................. 2130
+4.5. Accesso multiplo WCDMA.................................... 2131
+4.6. Tipi di canali nel sistema UMTS............................ 2132
+4.7. Strutture temporali nel sistema UMTS................... 2133
+4.8. Esempi di procedure............................................... 2133
+4.9. Esempio di costituzione di un sito UMTS
+e di bilancio di potenza........................................... 2133
+4.10. HSPA (High Speed Packet Access) ...................... 2135
+5. SISTEMI PER LA COMUNICAZIONE MOBILE
+DI QUARTA GENERAZIONE (4G) .............................. 2136
+5.1. Il sistema LTE/SAE (EPS) .................................. 2136
+5.2. Architettura del sistema LTE/SAE (EPS)............. 2136
+5.3. La core network EPC............................................ 2136
+5.4. Architettura della rete di accesso
+LTE E-UTRAN ................................................... 2137
+5.5. Caratteristiche del sistema LTE............................ 2138
+5.6. Prestazioni del sistema LTE ................................. 2139
+5.7. Le tecniche OFDMA e SC-FDMA....................... 2140
+5.8. Bilancio di potenza in un sistema LTE................. 2142
+5.9. Tipi di protocolli nel sistema LTE........................ 2144
+5.10. Tipi di canali e di segnali nel sistema LTE........... 2144
+6. SISTEMA DI QUARTA GENERAZIONE LTE-A.......... 2145
+6.1. Carrier Aggregation............................................... 2146
+6.2. Advanced MIMO.................................................... 2146
+6.3. Coordinated MultiPoint ......................................... 2146
+6.4. Enhanced Inter-cell Interference Coordination
+(eICIC ) .................................................................. 2147
+7. LTE-ADVANCED PRO ................................................. 2147
+8. IL SISTEMA CELLULARE DI QUINTA
+GENERAZIONE (5G).................................................... 2147
+8.1. Contesti d’uso generali........................................... 2148
+8.2. Architettura del sistema 5G.................................... 2148
+8.3. Principali innovazioni del sistema 5G.................... 2149
+8.4. Softwarizzazione del sistema 5G ........................... 2150
+8.5. Architettura e protocolli 5G NG-RAN................... 2151
+8.6. Edge computing...................................................... 2152
+56 TECNOLOGIE E APPLICAZIONI
+DELL’INTERNET OF THINGS
+1. CARATTERISTICHE GENERALI................................ 2153
+1.1. Definizione............................................................. 2153
+1.2. Ambiti applicativi................................................... 2153
+1.3. Architettura............................................................. 2154
+1.4. Big data e Intelligenza Artificiale........................... 2155
+1.5. Importanza e utilizzo dei dati ................................. 2156
+1.6. Comunicazioni M2M (Machine-to-Machine),
+WSN (Wireless Sensor Network) e IoT .................. 2157
+1.7. Tecnologie e protocolli di comunicazione.............. 2157
+1.8. Standardizzazione................................................... 2159
+2. OGGETTI “INTELLIGENTI” (SMART OBJECT)........ 2159
+2.1. Caratteristiche......................................................... 2159
+2.2. Evoluzione dei dispositivi embedded e sviluppo
+delle applicazioni IoT............................................. 2159
+2.3. L’importanza dei consumi ...................................... 2160
+2.4. Indirizzamento e comunicazioni ............................ 2161
+2.5. Classificazione dei dispositivi constrained
+(RFC 7228)............................................................. 2161
+3. DISPOSITIVI CONCENTRATORI (GATEWAY).......... 2162
+4. PIATTAFORME CLOUD .............................................. 2163
+4.1. Caratteristiche......................................................... 2163
+4.2. L’importanza delle API........................................... 2165
+4.3. Fog/Edge computing .............................................. 2165
+5. TECNOLOGIE WIRELESS PER L’IoT......................... 2165
+5.1. Sistemi di prossimità .............................................. 2165
+5.2. Sistemi a corto raggio – reti WPAN ....................... 2166
+INDICE GENERALE XXIII
+NOTE PER LA CONSULTAZIONE DEL VOLUME
+In ciascun capitolo i riferimenti di figure, tabelle, formule ed esempi sono numerati in ordine crescente e sempre
+preceduti dal numero del capitolo (per es. tab. 42.5, fig. 37.2)
+I rimandi ad altri paragrafi sono preceduti dal simbolo § e riportano il numero del capitolo in grassetto (§ 38.1.4)
+5.3. Sistemi a corto raggio – reti WLAN....................... 2170
+5.4. Sistemi a bassa potenza e lungo raggio – reti
+LPWAN.................................................................. 2171
+5.5. Comparazione tra le tecnologie wireless................ 2176
+6. PROTOCOLLI DI LIVELLO APPLICATIVO
+PER L’IoT...................................................................... 2176
+6.1. MQTT (Message Queuing Telemetry
+Transport)............................................................... 2176
+6.2. CoAP (Constrained Application Protocol)............. 2179
+7. SICUREZZA E PRIVACY IN AMBITO IoT .................. 2180
+7.1. Sicurezza ................................................................ 2180
+7.2. Privacy.................................................................... 2181
+8. DOMOTICA E SMART HOME ..................................... 2182
+8.1. Dalla domotica alla Smart Home............................ 2182
+8.2. Caratteristiche di una Smart Home......................... 2182
+8.3. Architettura di una Smart Home............................. 2183
+8.4. La presa elettrica smart .......................................... 2185
+8.5. Esempi applicativi di Smart Home......................... 2185
+8.6. La domotica per l’utenza ampliata: la norma
+CEI 64-21 ............................................................... 2186
+8.7. Gli ecosistemi: gli elettrodomestici “intelligenti” .. 2187
+8.8. Il futuro della Smart Home: verso l’Ambient
+Intelligence............................................................. 2187
+57 TECNOLOGIE RFID E NFC
+1. INTRODUZIONE AI SISTEMI RFID ........................... 2189
+1.1. Cenni storici ........................................................... 2189
+1.2. Confronto con il codice a barre, vantaggi e aspetti
+limitanti della tecnologia RFID.............................. 2189
+1.3. RFID e NFC ........................................................... 2190
+1.4. RFID e IoT ............................................................. 2190
+1.5. I componenti di un sistema RFID: tag e lettori....... 2190
+1.6. Allocazione delle bande di frequenza e
+interoperabilità in ambito internazionale................ 2191
+1.7. Aspetti legati alla sicurezza, privacy ed
+esposizione alle onde elettromagnetiche ................ 2191
+2. CLASSIFICAZIONE E CARATTERISTICHE
+DEI SISTEMI RFID....................................................... 2192
+2.1. Tag passivi.............................................................. 2192
+2.2. Tag semipassivi ...................................................... 2194
+2.3. Tag attivi................................................................. 2194
+2.4. Tag a larghissima banda (UWB) ............................ 2195
+2.5. Sistemi antitaccheggio (EAS) ................................ 2196
+2.6. Tag chipless............................................................ 2197
+2.7. Identificazioni di animali, tag impiantabili ............ 2197
+3. SISTEMI RFID PASSIVI AD ACCOPPIAMENTO
+MAGNETICO................................................................ 2198
+3.1. Bande di utilizzo e requisiti radio........................... 2198
+3.2. Modello elettrico di un tag ad accoppiamento
+magnetico ............................................................... 2199
+3.3. Criteri di dimensionamento di un tag e
+determinazione del campo di attivazione ............... 2200
+3.4. Dimensionamento del sistema di lettura e calcolo
+della distanza di lettura........................................... 2201
+3.5. Standard utilizzati nei sistemi RFID
+ad accoppiamento magnetico ................................. 2202
+3.6. Lo standard ISO 15693........................................... 2202
+3.7. Lo standard ISO 14443........................................... 2205
+4. SISTEMI RFID PASSIVI AD ACCOPPIAMENTO
+ELETTROMAGNETICO .............................................. 2206
+4.1. Bande di utilizzo e requisiti radio........................... 2207
+4.2. Dimensionamento del tag e del sistema di lettura .. 2207
+4.3. Standard utilizzati nei sistemi RFID
+ad accoppiamento elettromagnetico ....................... 2210
+5. INTERFACCIAMENTO CON I SISTEMI RFID........... 2213
+5.1. Esempio di API per un lettore RAIN RFID............ 2213
+5.2. NFC Forum ............................................................ 2214
+58 TECNOLOGIE E STANDARD DEI SISTEMI
+RADIOFONICI E TELEVISIVI DIGITALI
+1. EVOLUZIONE DEI SISTEMI RADIOFONICI
+E TELEVISIVI .............................................................. 2217
+2. CONCETTI GENERALI RELATIVI AI SISTEMI
+DIGITALI...................................................................... 2217
+2.1. Codifica di sorgente................................................ 2217
+2.2. Reti a singola frequenza (SFN) .............................. 2220
+2.3. Vantaggi/svantaggi dei sistemi di broadcasting
+digitali..................................................................... 2221
+3. DAB (DIGITAL AUDIO BROADCASTING)................ 2221
+3.1. Introduzione ........................................................... 2221
+3.2. Sistema di trasmissione .......................................... 2222
+3.3. Evoluzione dei sistemi DAB di prima
+generazione............................................................. 2224
+4. DVB (DIGITAL VIDEO BROADCASTING)................ 2224
+4.1. Introduzione ........................................................... 2224
+4.2. Descrizione di un collegamento DVB.................... 2225
+4.3. Evoluzione dei sistemi DVB di prima
+generazione............................................................. 2228
+INDICE ANALITICO ..................................................... 2229
+42. TECNICHE DI MODULAZIONE ANALOGICHE 1741
+Figura 42.15 Modulazione FM.
+Tabella 42.14 Espressioni matematiche per la modulazione FM.
+Segnale Espressione matematica Note
+Modulante sm(t) = Am cos (2πfmt) Sinusoidale per semplicità di analisi
+Portante sp(t) = Ap sen (2πfpt) Per convenienza matematica la portante è di tipo seno
+Modulato
+sFM (t) = Ap sen [θM(t)] Generico segnale modulato angolarmente
+sFM (t) = Ap sen [ωpt + ∫kf
+sm(t) dt]
+kf
+ = costante di proporzionalità del modulatore Con modulante qualsiasi
+sFM (t) = Ap sen [ωpt + mf
+ sen (ωmt)] Con modulante sinusoidale
+Parametri del segnale modulato FM
+Ampiezza Ap Non varia al variare del segnale modulante
+Frequenza
+istantanea
+fFM(t) = fp + k1sm(t)
+fFM(t) = fp + k1Am cos (2πfmt)
+k1 = costante di proporzionalità
+Varia attorno alla frequenza della portante in modo proporzionale all’ampiezza del modulante
+Pulsazione
+istantanea
+ωFM(t) = 2π fFM(t) = ωp + kf
+sm(t)
+ωFM(t) = ωp + kf
+Am cos (ωmt)
+kf
+ = 2πk1 = costante di proporzionalità del modulatore
+Varia attorno alla pulsazione della portante in modo proporzionale all’ampiezza del modulante
+Fase
+istantanea
+θ ω FM ( )t t FM ( )d d t t ω k s ( )t t = = ∫ ∫ p f + m
+Varia in modo proporzionale all’integrale del modulante
+Potenza P P
+A
+R p
+p
+FM = =
+2
+2
+È uguale a quella della portante
+1324 INFORMATICA
+const b2 = arya instanceof Person; // b2: true
+console.log(arya.name) // Arya
+arya.sayHi() // Ciao, sono Arya
+console.log(arya.studentNumber) // as001
+È possibile anche definire metodi statici ponendo la parola
+chiave static prima del metodo:
+class Calc {
+ static add(x, y) {
+ return x + y;
+ }
+}
+console.log(Calc.add(2, 3)) // 5
+4.1.11 Oggetti wrapper per valori primitivi
+Per ciascuno dei valori primitivi del linguaggio JavaScript esiste un oggetto wrapper corrispondente (Boolean,
+Number e String); la trasformazione tra valori primitivi e oggetti wrapper viene effettuata in modo automatico dall’interprete del linguaggio per cui è possibile definire variabili di valori primitivi utilizzando i costruttori degli
+oggetti wrapper:
+var b1 = Boolean(true); // b1: true
+var b2 = Boolean(0); // b2: false
+var n1 = Number(1); // n1: 1
+var n2 = Number('123'); // n2: 123
+var s1 = String('xyz'); // s1: 'xyz'
+var s2 = String(123); // s2: '123'
+I tre oggetti wrapper rendono disponibili ciascuno i metodi valueOf e toString che restituiscono rispettivamente il
+valore primitivo dell’oggetto e la sua rappresentazione in
+forma di stringa di caratteri; inoltre l’oggetto String dispone – oltre alla proprietà length – dei metodi elencati nella tab. 30.61.
+4.1.12 Array e funzioni che operano su array
+Un array JavaScript è un elenco di al massimo 232–1 elementi, di tipo anche non omogeneo, compresi tra i simboli “ [ ” e “ ] ” e separati tra loro dal simbolo “ , ” (eventuali
+simboli “ , ” in eccesso al termine dell’elenco sono ignorati). Un array, la cui dimensione è data dalla proprietà predefinita length, può essere definito direttamente come valore
+letterale assegnato a una variabile; il codice JavaScript riferisce gli elementi di un array specificandone l’indice tra i
+simboli “ [ ” e “ ] ”, l’indice del primo elemento è 0:
+const traffic_light = ['red', 'yellow',
+'green'];
+let light = traffic_light[1];
+// light: 'yellow'
+traffic_light[1] = 'orange';
+light = traffic_light[1]; // light: 'orange'
+const dim = traffic_light.length; // dim: 3
+Tabella 30.61 Metodi dell’oggetto String del linguaggio JavaScript.
+Metodo Descrizione
+charAt(index) Restituisce il carattere nella posizione specificata.
+charCodeAt(index) Restituisce il valore Unicode del carattere nella posizione specificata.
+concat(string) Concatena la stringa con la stringa specificata e restituisce il risultato.
+fromCharCode(unicode) Converte un valore Unicode nel carattere corrispondente.
+indexOf(string) Restituisce la posizione della prima occorrenza della sottostringa specificata.
+lastIndexOf(string) Restituisce la posizione dell'ultima occorrenza della string specificata.
+localCompare(string) Confronta la stringa con la stringa specificata in base alla lingua impostata nel browser (restituisce –1 se la precede, 0 se corrispondono, +1 se la segue nell'ordinamento alfabetico).
+match(regexp) Ricerca le occorrenze di un'espressione regolare nella stringa e le restituisce in forma di array.
+replace(string1,
+string2)
+Sostituisce nella stringa le occorrenze di una stringa specificata con una seconda stringa specificata.
+search(string) Ricerca una sottostringa specificata nella stringa e restituisce la posizione della prima occorrenza.
+slice(index1, index2) Restituisce la sottostringa compresa tra due indici specificati.
+split(separator) Suddivide la stringa in base ai caratteri separatori specificati; restituisce un array di sottostringhe.
+substr(index, length) Restituisce la sottostringa di lunghezza specificata che ha inizio alla posizione specificata.
+toLocalLowerCase() Restituisce la stringa in caratteri minuscoli in base alla lingua impostata nel browser.
+toLocalUpperCase() Restituisce la stringa in caratteri maiuscoli in base alla lingua impostata nel browser.
+toLowerCase() Restituisce la stringa in caratteri minuscoli.
+toUpperCase() Restituisce la stringa in caratteri maiuscoli.
+trim() Restituisce la stringa senza gli spazi vuoti iniziali e finali.
+Indispensabile per la preparazione della prova d’esame
+La terza edizione del Manuale Cremonese di Informatica e Telecomunicazioni
+costituisce un riferimento solido, completo e aggiornato per studenti, docenti
+e professionisti.
+L’aggiornamento
+Alle Discipline propedeutiche si è aggiunta la Gestione, progetto
+e organizzazione di impresa.
+Nella sezione di Informatica sono trattati i temi della Programmazione asincrona
+e della Programmazione embedded e sono stati introdotti capitoli dedicati alla
+Programmazione funzionale, al Formato dati JSON e al Linguaggio Python.
+In Telecomunicazioni figurano ora argomenti come le Software Defined
+Network, la Network Function Virtualization, le SD-WAN, i container
+e i microservizi, nonché capitoli dedicati alle Tecnologie RFID e NFC, all’Internet
+of Things (IoT), alle Tecnologie e standard per sistemi radiofonici e televisivi,
+alla Comunicazione unificata e allo Smart Working.
+La preparazione alla prova d’esame
+La trasformazione della seconda prova scritta dell’esame di Stato
+da disciplinare a interdisciplinare rende il Manuale uno strumento
+indispensabile per la preparazione, perché offre un ampio e aggiornato
+repertorio di tecnologie hardware e software, completo di elementi normativi
+e di numerosissimi grafici, schemi ed esempi applicativi, utili anche
+per il colloquio orale.
+La consultazione
+La struttura tripartita dell’opera (Discipline propedeutiche, Informatica
+e Telecomunicazioni) organizza in modo sistematico i contenuti e facilita
+il reperimento delle informazioni, anche grazie all’indice analitico finale.
+Nella collana dei Manuali Cremonese Zanichelli:
+Elettronica, Meccanica, Elettrotecnica, Informatica e Telecomunicazioni,
+Geometra – Costruzioni, Ambiente e Territorio
