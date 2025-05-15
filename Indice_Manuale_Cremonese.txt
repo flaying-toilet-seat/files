@@ -1,0 +1,26 @@
+PREFAZIONE
+
+Giunto alla terza edizione, il Manuale Cremonese di Informatica e Telecomunicazioni si conferma lopera di riferimento per tecnici, professionisti, docenti e studenti dellindustria ICT [...]
+
+
+AUTORI
+
+Ara Gabriele  Programmazione di app per dispositivi con sistema operativo Android
+Baldon Eljenne  Data center  Reti di nuova generazione
+Bandini Massimiliano  Sicurezza nei luoghi di lavoro
+[...]
+
+
+INDICE GENERALE
+
+DISCIPLINE PROPEDEUTICHE
+1. MATEMATICA
+1.1. Geometria  p.3
+1.2. Geometria analitica nel piano  p.6
+[...]
+INFORMATICA
+13. CODIFICA DELLINFORMAZIONE
+13.1. Rappresentazione numerica dellinformazione  p.399
+13.2. Codifiche binarie  p.401
+[...]
+
