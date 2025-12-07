@@ -1,18 +1,39 @@
 # files
 
-## WiFi Password Retriever
+## WiFi Password Recovery Tools
 
-This repository includes a Python script to help you retrieve saved WiFi passwords from your computer.
+This repository includes multiple tools to help you recover your WiFi password in different situations.
+
+### 🎯 Which Tool Should I Use?
+
+**Choose based on your situation:**
+
+| Situation | Tool to Use | Command |
+|-----------|-------------|---------|
+| 💻 **Password saved on THIS computer** | `wifi_password_retriever.py` | See below |
+| 🚫 **No router admin access** | `no_admin_access_helper.py` | `python3 no_admin_access_helper.py` |
+| 🔧 **Want to access router** | `router_wifi_finder.py` | `python3 router_wifi_finder.py` |
+| 📱 **Want to create QR code** | `wifi_qr_generator.py` | `python3 wifi_qr_generator.py` |
+| 💔 **Old PC broken, need password on new PC** | See [WIFI_RECOVERY_GUIDE.md](WIFI_RECOVERY_GUIDE.md) | - |
 
 ### Features
+- **Multiple recovery methods**: Router access, phone check, ISP contact, and more
 - **Cross-platform support**: Works on Windows, Linux, and macOS
-- **Easy to use**: Simple command-line interface
+- **Easy to use**: Simple command-line interface with step-by-step guidance
 - **No dependencies**: Uses only Python standard library
+- **QR code generation**: Create WiFi QR codes for easy sharing
 
 ### Requirements
 - Python 3.x (Python 3.6 or newer recommended)
+- Admin/sudo privileges (for some tools)
+---
 
-### Usage
+## 📚 Detailed Tool Descriptions
+
+### 1. wifi_password_retriever.py
+**Retrieves passwords saved on your current computer**
+
+Use this when you need to see WiFi passwords that are already saved on the computer you're using.
 
 #### Windows
 Run Command Prompt or PowerShell as **Administrator**:
@@ -36,7 +57,74 @@ python3 wifi_password_retriever.py
 
 Note: You may need to authorize keychain access for each network.
 
-### How It Works
+---
+
+### 2. no_admin_access_helper.py
+**⭐ Use this when you DON'T have router admin access**
+
+This interactive tool guides you through ALL alternative methods to recover your WiFi password when you can't access the router admin panel.
+
+```bash
+python3 no_admin_access_helper.py
+```
+
+**What it helps with:**
+- ✅ Checking connected phones/devices
+- ✅ Finding password on router label  
+- ✅ Retrieving from other computers
+- ✅ Contacting ISP for help
+- ✅ Safe router reset (last resort)
+
+---
+
+### 3. router_wifi_finder.py
+**Access your router's admin panel**
+
+This tool helps you find and access your router's configuration page where you can view/change the WiFi password.
+
+```bash
+python3 router_wifi_finder.py
+```
+
+**What it does:**
+- Automatically detects your router's IP address
+- Opens the router admin page in your browser
+- Shows common login credentials
+- Provides instructions for finding WiFi password in router settings
+
+---
+
+### 4. wifi_qr_generator.py  
+**Create QR codes for easy WiFi sharing**
+
+Generate a QR code that others can scan with their phone to connect automatically.
+
+```bash
+python3 wifi_qr_generator.py
+```
+
+**Benefits:**
+- No need to type long passwords
+- Easy guest access
+- Print and display for visitors
+- Works offline once generated
+
+**Optional dependency for image QR codes:**
+```bash
+pip install qrcode[pil]
+```
+(Script works without this - provides ASCII QR code or online alternatives)
+
+---
+
+## 📖 Complete Guides
+
+- **[WIFI_RECOVERY_GUIDE.md](WIFI_RECOVERY_GUIDE.md)** - Comprehensive guide for all recovery scenarios
+- **[QUICK_START.md](QUICK_START.md)** - Quick reference for each tool
+
+---
+
+### How wifi_password_retriever.py Works
 
 - **Windows**: Uses the `netsh wlan` command to retrieve saved WiFi profiles and their passwords
 - **Linux**: Reads from NetworkManager's configuration files in `/etc/NetworkManager/system-connections/`
