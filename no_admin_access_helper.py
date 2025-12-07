@@ -7,7 +7,6 @@ This script helps you recover your WiFi password when you CAN'T access the route
 import sys
 import platform
 import subprocess
-import os
 
 
 def check_phone_connected():

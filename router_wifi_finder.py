@@ -34,11 +34,16 @@ def get_default_gateway():
                 if match:
                     return match.group(1)
             except FileNotFoundError:
-                # Fallback to route command
-                result = subprocess.check_output(['route', '-n'], encoding='utf-8')
-                match = re.search(r'0\.0\.0\.0\s+(\d+\.\d+\.\d+\.\d+)', result)
-                if match:
-                    return match.group(1)
+                # Fallback to netstat command (more portable)
+                result = subprocess.check_output(['netstat', '-rn'], encoding='utf-8')
+                # Look for default route
+                for line in result.split('\n'):
+                    if 'default' in line.lower() or '0.0.0.0' in line:
+                        parts = line.split()
+                        for part in parts:
+                            if re.match(r'\d+\.\d+\.\d+\.\d+', part) and part != '0.0.0.0':
+                                return part
+                                break
     
     except subprocess.CalledProcessError:
         pass

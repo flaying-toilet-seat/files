@@ -12,14 +12,19 @@ This script can work with or without the qrcode library:
 import sys
 
 
+def escape_wifi_string(text):
+    """Escape special characters for WiFi QR code format."""
+    return text.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace(":", "\\:")
+
+
 def generate_wifi_string(ssid, password, security="WPA"):
     """
     Generate WiFi configuration string in the standard format.
     Format: WIFI:T:<security>;S:<ssid>;P:<password>;H:<hidden>;;
     """
     # Escape special characters
-    ssid = ssid.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace(":", "\\:")
-    password = password.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace(":", "\\:")
+    ssid = escape_wifi_string(ssid)
+    password = escape_wifi_string(password)
     
     wifi_string = f"WIFI:T:{security};S:{ssid};P:{password};;"
     return wifi_string
