@@ -21,8 +21,13 @@ def get_wifi_passwords_windows():
             stderr=subprocess.DEVNULL
         )
         
-        # Extract profile names
+        # Extract profile names - try both English and localized patterns
         profile_names = re.findall(r'All User Profile\s*:\s*(.*)', profiles_output)
+        if not profile_names:
+            # Fallback: try generic pattern that works with localized versions
+            profile_names = re.findall(r':\s*(.+)$', profiles_output, re.MULTILINE)
+            # Filter out empty and header lines
+            profile_names = [p.strip() for p in profile_names if p.strip() and len(p.strip()) > 0]
         
         if not profile_names:
             print("No WiFi profiles found.")
@@ -41,9 +46,12 @@ def get_wifi_passwords_windows():
                     stderr=subprocess.DEVNULL
                 )
                 
-                # Extract password
+                # Extract password - try both English and localized patterns
                 password_match = re.search(r'Key Content\s*:\s*(.*)', password_output)
-                password = password_match.group(1) if password_match else "No password found"
+                if not password_match:
+                    # Fallback: look for any line with password-like content after "key"
+                    password_match = re.search(r'(?:Key|Clé|Schlüssel|Chiave|Clave).*?:\s*(.+)', password_output, re.IGNORECASE)
+                password = password_match.group(1).strip() if password_match else "No password found"
                 
                 wifi_list.append({'ssid': profile, 'password': password})
                 print(f"SSID: {profile}")
@@ -165,8 +173,12 @@ def get_wifi_passwords_macos():
                     ssid = line.strip()
                     if ssid not in ssids:
                         ssids.append(ssid)
-        except:
+        except subprocess.CalledProcessError:
+            # networksetup command failed, continue with what we have
             pass
+        except Exception as e:
+            # Other errors, log but continue
+            print(f"Warning: Error getting preferred networks: {e}")
         
         if not ssids:
             print("No WiFi networks found.")
